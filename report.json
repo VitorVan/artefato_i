@@ -1,0 +1,89 @@
+[
+  {
+    "id": "acessar-o-site-do-pauliceia-e-abrir-o-mapa",
+    "uri": "features/corinthians.feature",
+    "keyword": "Funcionalidade",
+    "name": "Acessar o site do Pauliceia e abrir o mapa",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "acessar-o-site-do-pauliceia-e-abrir-o-mapa;acesso-o-site-do-pauliceia-e-abro-o-mapa",
+        "keyword": "Cenário",
+        "name": "Acesso o site do Pauliceia e abro o mapa",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesso o site do Pauliceia",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/corinthians_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4604662100
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu clico em Mapa",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/corinthians_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415929600
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu quero ser redirecionado para a página de mapa",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/corinthians_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33498100
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 579746800
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
