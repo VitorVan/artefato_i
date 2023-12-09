@@ -1,4 +1,3 @@
-
 Quando ('eu preencho o campo notificações com "Teste notificação camada"') do
     fill_in('inputReference', with: 'Teste notificação camada')
 end
