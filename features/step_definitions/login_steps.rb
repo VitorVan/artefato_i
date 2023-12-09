@@ -3,7 +3,7 @@ Dado('que eu acesso o site {string}') do |site_url|
 end
 
 Quando('eu clico no link {string}') do |button_text|
-  click_link(button_text)
+  find('a[href="/portal/login"]').click
 end
 
 Quando('eu clico no botão {string}') do |button_text|
