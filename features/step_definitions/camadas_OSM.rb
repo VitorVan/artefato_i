@@ -1,4 +1,4 @@
-#include Capybara::DSL
+include Capybara::DSL
 
 #armazena o estilo inicial da pagina para comparar com o novo mapa
 initial_background_color = page.evaluate_script('getComputedStyle(document.body).backgroundColor')

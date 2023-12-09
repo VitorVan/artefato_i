@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4032188200
+              "duration": 3911202000
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 576533000
+              "duration": 726285600
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 168795300
+              "duration": 183943900
             }
           },
           {
@@ -61,7 +61,7 @@
             "result": {
               "status": "pending",
               "error_message": "TODO (Cucumber::Pending)\n./features/step_definitions/baixar_camada_steps.rb:6:in `\"eu baixei um arquvio com as informações da camada {string}\"'\nfeatures/bdd/baixar_camada.feature:9:in `eu baixei um arquvio com as informações da camada \"A enchente de 1850\"'",
-              "duration": 188800
+              "duration": 147700
             }
           }
         ],
@@ -72,7 +72,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61700
+              "duration": 61900
             }
           },
           {
@@ -81,7 +81,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37100
+              "duration": 12500
             }
           }
         ],
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53600
+              "duration": 42500
             }
           },
           {
@@ -101,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 429107700
+              "duration": 460818100
             }
           }
         ]
@@ -133,7 +133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1008345300
+              "duration": 1000852200
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 823374200
+              "duration": 465278200
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 512034400
+              "duration": 384383600
             }
           }
         ],
@@ -168,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58700
+              "duration": 23300
             }
           },
           {
@@ -177,7 +177,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32100
+              "duration": 10600
             }
           }
         ],
@@ -188,7 +188,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51700
+              "duration": 41400
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 270264700
+              "duration": 263271200
             }
           }
         ]
@@ -219,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 826271900
+              "duration": 800423500
             }
           },
           {
@@ -231,7 +231,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 369935900
+              "duration": 258968900
             }
           },
           {
@@ -243,7 +243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 303224300
+              "duration": 182926000
             }
           }
         ],
@@ -254,7 +254,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38400
+              "duration": 28100
             }
           },
           {
@@ -263,7 +263,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23600
+              "duration": 18300
             }
           }
         ],
@@ -274,7 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36800
+              "duration": 37300
             }
           },
           {
@@ -283,7 +283,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229038100
+              "duration": 262495900
             }
           }
         ]
@@ -305,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 900991200
+              "duration": 770693900
             }
           },
           {
@@ -317,7 +317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 505636600
+              "duration": 463653400
             }
           },
           {
@@ -329,7 +329,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1048105800
+              "duration": 869041700
             }
           }
         ],
@@ -340,7 +340,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59500
+              "duration": 22900
             }
           },
           {
@@ -349,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81800
+              "duration": 8300
             }
           }
         ],
@@ -360,7 +360,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42800
+              "duration": 42100
             }
           },
           {
@@ -369,7 +369,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 228829500
+              "duration": 232489000
             }
           }
         ]
@@ -391,7 +391,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 607287100
+              "duration": 645823100
             }
           },
           {
@@ -403,7 +403,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307779300
+              "duration": 475347400
             }
           },
           {
@@ -415,7 +415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 459896100
+              "duration": 182105300
             }
           }
         ],
@@ -426,7 +426,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30100
+              "duration": 37200
             }
           },
           {
@@ -435,7 +435,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10600
+              "duration": 12900
             }
           }
         ],
@@ -446,7 +446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38500
+              "duration": 34900
             }
           },
           {
@@ -455,7 +455,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229939000
+              "duration": 218792600
             }
           }
         ]
@@ -486,9 +486,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <button data-v-7cba64b4=\"\" type=\"submit\" class=\"btn style-btn btn-lg btn-block\">...</button> is not clickable at point (508, 469). Other element would receive the click: <span data-v-7cba64b4=\"\" class=\"md-list-item-text\">...</span>\n  (Session info: chrome=120.0.6099.71) (Selenium::WebDriver::Error::ElementClickInterceptedError)\n\tGetHandleVerifier [0x00007FF7035F4D02+56194]\n\t(No symbol) [0x00007FF7035604B2]\n\t(No symbol) [0x00007FF7034076AA]\n\t(No symbol) [0x00007FF703458763]\n\t(No symbol) [0x00007FF70345675D]\n\t(No symbol) [0x00007FF703453F5C]\n\t(No symbol) [0x00007FF703452D15]\n\t(No symbol) [0x00007FF70344687F]\n\t(No symbol) [0x00007FF703475E7A]\n\t(No symbol) [0x00007FF703446226]\n\t(No symbol) [0x00007FF703476320]\n\t(No symbol) [0x00007FF703492786]\n\t(No symbol) [0x00007FF703475C23]\n\t(No symbol) [0x00007FF703444A45]\n\t(No symbol) [0x00007FF703445AD4]\n\tGetHandleVerifier [0x00007FF70396D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7039C6197+4059159]\n\tGetHandleVerifier [0x00007FF7039BDF63+4025827]\n\tGetHandleVerifier [0x00007FF70368F029+687785]\n\t(No symbol) [0x00007FF70356B508]\n\t(No symbol) [0x00007FF703567564]\n\t(No symbol) [0x00007FF7035676E9]\n\t(No symbol) [0x00007FF703558094]\n\tBaseThreadInitThunk [0x00007FFC88E47344+20]\n\tRtlUserThreadStart [0x00007FFC8A8E26B1+33]\n./features/step_definitions/login_steps.rb:10:in `\"eu clico no botão {string}\"'\n./features/step_definitions/cadastrar_palavra_chave_steps.rb:4:in `\"que estou logado\"'\nfeatures/bdd/cadastrar_palavra_chave.feature:6:in `que estou logado'",
-              "duration": 4045980600
+              "status": "passed",
+              "duration": 2705874100
             }
           },
           {
@@ -499,7 +498,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 154325800
             }
           },
           {
@@ -510,7 +510,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:19"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 153835900
             }
           },
           {
@@ -521,7 +522,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:23"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 139304100
             }
           },
           {
@@ -532,7 +534,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:27"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 215109700
             }
           },
           {
@@ -543,7 +546,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:31"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 187230000
             }
           },
           {
@@ -554,7 +558,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:38"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3715800
             }
           }
         ],
@@ -565,7 +570,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33900
+              "duration": 28600
             }
           },
           {
@@ -574,7 +579,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19200
+              "duration": 11600
             }
           }
         ],
@@ -585,7 +590,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52000
+              "duration": 55400
             }
           },
           {
@@ -594,7 +599,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 325148200
+              "duration": 256388500
             }
           }
         ]
@@ -615,9 +620,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <button data-v-7cba64b4=\"\" type=\"submit\" class=\"btn style-btn btn-lg btn-block\">...</button> is not clickable at point (508, 469). Other element would receive the click: <span data-v-7cba64b4=\"\" class=\"md-list-item-text\">...</span>\n  (Session info: chrome=120.0.6099.71) (Selenium::WebDriver::Error::ElementClickInterceptedError)\n\tGetHandleVerifier [0x00007FF7035F4D02+56194]\n\t(No symbol) [0x00007FF7035604B2]\n\t(No symbol) [0x00007FF7034076AA]\n\t(No symbol) [0x00007FF703458763]\n\t(No symbol) [0x00007FF70345675D]\n\t(No symbol) [0x00007FF703453F5C]\n\t(No symbol) [0x00007FF703452D15]\n\t(No symbol) [0x00007FF70344687F]\n\t(No symbol) [0x00007FF703475E7A]\n\t(No symbol) [0x00007FF703446226]\n\t(No symbol) [0x00007FF703476320]\n\t(No symbol) [0x00007FF703492786]\n\t(No symbol) [0x00007FF703475C23]\n\t(No symbol) [0x00007FF703444A45]\n\t(No symbol) [0x00007FF703445AD4]\n\tGetHandleVerifier [0x00007FF70396D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7039C6197+4059159]\n\tGetHandleVerifier [0x00007FF7039BDF63+4025827]\n\tGetHandleVerifier [0x00007FF70368F029+687785]\n\t(No symbol) [0x00007FF70356B508]\n\t(No symbol) [0x00007FF703567564]\n\t(No symbol) [0x00007FF7035676E9]\n\t(No symbol) [0x00007FF703558094]\n\tBaseThreadInitThunk [0x00007FFC88E47344+20]\n\tRtlUserThreadStart [0x00007FFC8A8E26B1+33]\n./features/step_definitions/login_steps.rb:10:in `\"eu clico no botão {string}\"'\n./features/step_definitions/cadastrar_palavra_chave_steps.rb:4:in `\"que estou logado\"'\nfeatures/bdd/cadastrar_palavra_chave.feature:15:in `que estou logado'",
-              "duration": 4319496800
+              "status": "passed",
+              "duration": 2282018900
             }
           },
           {
@@ -628,7 +632,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:47"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 681697000
             }
           },
           {
@@ -639,7 +644,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 152367700
             }
           },
           {
@@ -650,7 +656,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:19"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 91391700
             }
           },
           {
@@ -661,7 +668,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:23"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 121395600
             }
           },
           {
@@ -672,7 +680,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:58"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 410397600
             }
           },
           {
@@ -683,7 +692,8 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:71"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 63700
             }
           },
           {
@@ -694,7 +704,9 @@
               "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:76"
             },
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "expected to find text \"The administrator is who can update/delete the keyword.\" in \"Home\\nMapa\\nTutorial\\nSobre\\nContato\\naccount_balance\\nInicio\\nlayers\\nNova Camada\\nadd_to_photos\\nPalavras-chave\\nNova Palavra-Chave\\nNome \\nerror_outline\\narrow_back\\nSubmit\\nMinhas Palavras-Chave\\n\\n\\nTeste\\nclear\\nTeste 1\\nclear\\nPalavra chave teste\\nclear\\nTeste 2\\nclear\\nTeste 3\\nclear\\nKeyword already exists!\" (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/cadastrar_palavra_chave_steps.rb:77:in `\"devo ver uma mensagem de erro\"'\nfeatures/bdd/cadastrar_palavra_chave.feature:22:in `devo ver uma mensagem de erro'",
+              "duration": 2106967400
             }
           }
         ],
@@ -705,7 +717,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36900
+              "duration": 22300
             }
           },
           {
@@ -714,7 +726,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19900
+              "duration": 8800
             }
           }
         ],
@@ -725,7 +737,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49500
+              "duration": 34000
             }
           },
           {
@@ -734,7 +746,115 @@
             },
             "result": {
               "status": "passed",
-              "duration": 237153900
+              "duration": 264734100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ligar-e-desligar-visualizações-de-mapas-de-anos-específicos",
+    "uri": "features/bdd/camadas_OSM.feature",
+    "keyword": "Funcionalidade",
+    "name": "ligar e desligar visualizações de mapas de anos específicos",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "ligar-e-desligar-visualizações-de-mapas-de-anos-específicos;ativar-visualização-do-ano-no-mapa",
+        "keyword": "Cenário",
+        "name": "Ativar visualização do ano no mapa",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 888222600
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "abro o menu camadas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/camadas_OSM.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232873900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no switch 1905",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/camadas_OSM.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105547500
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu quero ver o mapa do ano selecionado",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/camadas_OSM.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14086200
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261924400
             }
           }
         ]
@@ -766,7 +886,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 728077600
+              "duration": 2114059200
             }
           },
           {
@@ -778,7 +898,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 137234900
+              "duration": 118610500
             }
           },
           {
@@ -790,7 +910,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26461200
+              "duration": 44024200
             }
           }
         ],
@@ -801,7 +921,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37500
+              "duration": 26600
             }
           },
           {
@@ -810,7 +930,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 184400
+              "duration": 9100
             }
           }
         ],
@@ -821,7 +941,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40900
+              "duration": 56400
             }
           },
           {
@@ -830,7 +950,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 292772800
+              "duration": 230473200
             }
           }
         ]
@@ -852,7 +972,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 705266500
+              "duration": 815583100
             }
           },
           {
@@ -864,7 +984,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 108370700
+              "duration": 245265300
             }
           },
           {
@@ -876,7 +996,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24919800
+              "duration": 15049200
             }
           },
           {
@@ -888,7 +1008,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 316488600
+              "duration": 215536500
             }
           },
           {
@@ -900,7 +1020,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 170789600
+              "duration": 170633300
             }
           },
           {
@@ -911,9 +1031,8 @@
               "location": "features/step_definitions/login_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <button data-v-7cba64b4=\"\" type=\"submit\" class=\"btn style-btn btn-lg btn-block\">...</button> is not clickable at point (508, 469). Other element would receive the click: <span data-v-7cba64b4=\"\" class=\"md-list-item-text\">...</span>\n  (Session info: chrome=120.0.6099.71) (Selenium::WebDriver::Error::ElementClickInterceptedError)\n\tGetHandleVerifier [0x00007FF7035F4D02+56194]\n\t(No symbol) [0x00007FF7035604B2]\n\t(No symbol) [0x00007FF7034076AA]\n\t(No symbol) [0x00007FF703458763]\n\t(No symbol) [0x00007FF70345675D]\n\t(No symbol) [0x00007FF703453F5C]\n\t(No symbol) [0x00007FF703452D15]\n\t(No symbol) [0x00007FF70344687F]\n\t(No symbol) [0x00007FF703475E7A]\n\t(No symbol) [0x00007FF703446226]\n\t(No symbol) [0x00007FF703476320]\n\t(No symbol) [0x00007FF703492786]\n\t(No symbol) [0x00007FF703475C23]\n\t(No symbol) [0x00007FF703444A45]\n\t(No symbol) [0x00007FF703445AD4]\n\tGetHandleVerifier [0x00007FF70396D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7039C6197+4059159]\n\tGetHandleVerifier [0x00007FF7039BDF63+4025827]\n\tGetHandleVerifier [0x00007FF70368F029+687785]\n\t(No symbol) [0x00007FF70356B508]\n\t(No symbol) [0x00007FF703567564]\n\t(No symbol) [0x00007FF7035676E9]\n\t(No symbol) [0x00007FF703558094]\n\tBaseThreadInitThunk [0x00007FFC88E47344+20]\n\tRtlUserThreadStart [0x00007FFC8A8E26B1+33]\n./features/step_definitions/login_steps.rb:10:in `\"eu clico no botão {string}\"'\nfeatures/bdd/login.feature:15:in `eu clico no botão \"Entrar\"'",
-              "duration": 2293411900
+              "status": "passed",
+              "duration": 107648800
             }
           },
           {
@@ -924,7 +1043,8 @@
               "location": "features/step_definitions/login_steps.rb:25"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 572534300
             }
           }
         ],
@@ -935,7 +1055,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24200
+              "duration": 33200
             }
           },
           {
@@ -944,7 +1064,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 8500
             }
           }
         ],
@@ -955,7 +1075,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47400
+              "duration": 85300
             }
           },
           {
@@ -964,7 +1084,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 240161800
+              "duration": 330218900
             }
           }
         ]
@@ -986,7 +1106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 964709100
+              "duration": 1079970200
             }
           },
           {
@@ -998,7 +1118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 330815400
+              "duration": 120945400
             }
           },
           {
@@ -1010,7 +1130,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27877000
+              "duration": 15652300
             }
           },
           {
@@ -1022,7 +1142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 211363300
+              "duration": 211349600
             }
           },
           {
@@ -1034,7 +1154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155749300
+              "duration": 152235200
             }
           },
           {
@@ -1045,9 +1165,8 @@
               "location": "features/step_definitions/login_steps.rb:9"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <button data-v-7cba64b4=\"\" type=\"submit\" class=\"btn style-btn btn-lg btn-block\">...</button> is not clickable at point (508, 469). Other element would receive the click: <span data-v-7cba64b4=\"\" class=\"md-list-item-text\">...</span>\n  (Session info: chrome=120.0.6099.71) (Selenium::WebDriver::Error::ElementClickInterceptedError)\n\tGetHandleVerifier [0x00007FF7035F4D02+56194]\n\t(No symbol) [0x00007FF7035604B2]\n\t(No symbol) [0x00007FF7034076AA]\n\t(No symbol) [0x00007FF703458763]\n\t(No symbol) [0x00007FF70345675D]\n\t(No symbol) [0x00007FF703453F5C]\n\t(No symbol) [0x00007FF703452D15]\n\t(No symbol) [0x00007FF70344687F]\n\t(No symbol) [0x00007FF703475E7A]\n\t(No symbol) [0x00007FF703446226]\n\t(No symbol) [0x00007FF703476320]\n\t(No symbol) [0x00007FF703492786]\n\t(No symbol) [0x00007FF703475C23]\n\t(No symbol) [0x00007FF703444A45]\n\t(No symbol) [0x00007FF703445AD4]\n\tGetHandleVerifier [0x00007FF70396D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7039C6197+4059159]\n\tGetHandleVerifier [0x00007FF7039BDF63+4025827]\n\tGetHandleVerifier [0x00007FF70368F029+687785]\n\t(No symbol) [0x00007FF70356B508]\n\t(No symbol) [0x00007FF703567564]\n\t(No symbol) [0x00007FF7035676E9]\n\t(No symbol) [0x00007FF703558094]\n\tBaseThreadInitThunk [0x00007FFC88E47344+20]\n\tRtlUserThreadStart [0x00007FFC8A8E26B1+33]\n./features/step_definitions/login_steps.rb:10:in `\"eu clico no botão {string}\"'\nfeatures/bdd/login.feature:24:in `eu clico no botão \"Entrar\"'",
-              "duration": 2311015900
+              "status": "passed",
+              "duration": 90473200
             }
           },
           {
@@ -1058,7 +1177,8 @@
               "location": "features/step_definitions/login_steps.rb:29"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 230076700
             }
           }
         ],
@@ -1069,7 +1189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23200
+              "duration": 29600
             }
           },
           {
@@ -1078,7 +1198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10300
+              "duration": 13600
             }
           }
         ],
@@ -1089,7 +1209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46100
+              "duration": 42300
             }
           },
           {
@@ -1098,7 +1218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 225068900
+              "duration": 243379000
             }
           }
         ]
@@ -1129,9 +1249,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:1"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <button data-v-7cba64b4=\"\" type=\"submit\" class=\"btn style-btn btn-lg btn-block\">...</button> is not clickable at point (508, 469). Other element would receive the click: <span data-v-7cba64b4=\"\" class=\"md-list-item-text\">...</span>\n  (Session info: chrome=120.0.6099.71) (Selenium::WebDriver::Error::ElementClickInterceptedError)\n\tGetHandleVerifier [0x00007FF7035F4D02+56194]\n\t(No symbol) [0x00007FF7035604B2]\n\t(No symbol) [0x00007FF7034076AA]\n\t(No symbol) [0x00007FF703458763]\n\t(No symbol) [0x00007FF70345675D]\n\t(No symbol) [0x00007FF703453F5C]\n\t(No symbol) [0x00007FF703452D15]\n\t(No symbol) [0x00007FF70344687F]\n\t(No symbol) [0x00007FF703475E7A]\n\t(No symbol) [0x00007FF703446226]\n\t(No symbol) [0x00007FF703476320]\n\t(No symbol) [0x00007FF703492786]\n\t(No symbol) [0x00007FF703475C23]\n\t(No symbol) [0x00007FF703444A45]\n\t(No symbol) [0x00007FF703445AD4]\n\tGetHandleVerifier [0x00007FF70396D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7039C6197+4059159]\n\tGetHandleVerifier [0x00007FF7039BDF63+4025827]\n\tGetHandleVerifier [0x00007FF70368F029+687785]\n\t(No symbol) [0x00007FF70356B508]\n\t(No symbol) [0x00007FF703567564]\n\t(No symbol) [0x00007FF7035676E9]\n\t(No symbol) [0x00007FF703558094]\n\tBaseThreadInitThunk [0x00007FFC88E47344+20]\n\tRtlUserThreadStart [0x00007FFC8A8E26B1+33]\n./features/step_definitions/login_steps.rb:10:in `\"eu clico no botão {string}\"'\n./features/step_definitions/seguir_camada_steps.rb:2:in `\"que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada {string} e estou com suas informações ativas\"'\nfeatures/bdd/seguir_camada.feature:6:in `que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas'",
-              "duration": 4036226800
+              "status": "passed",
+              "duration": 6333763100
             }
           },
           {
@@ -1142,7 +1261,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:36"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 154331400
             }
           },
           {
@@ -1153,7 +1273,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:40"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 447395400
             }
           },
           {
@@ -1164,7 +1285,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:54"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 61220200
             }
           },
           {
@@ -1175,7 +1297,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:50"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 121608400
             }
           },
           {
@@ -1186,7 +1309,8 @@
               "location": "features/step_definitions/seguir_camada_steps.rb:45"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 430847300
             }
           }
         ],
@@ -1197,7 +1321,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26400
+              "duration": 42300
             }
           },
           {
@@ -1206,7 +1330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12900
+              "duration": 17600
             }
           }
         ],
@@ -1217,7 +1341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58100
+              "duration": 34400
             }
           },
           {
@@ -1226,7 +1350,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390309400
+              "duration": 292780400
             }
           }
         ]
@@ -1248,7 +1372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4689287800
+              "duration": 4033056800
             }
           },
           {
@@ -1260,7 +1384,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171203900
+              "duration": 122680300
             }
           },
           {
@@ -1272,7 +1396,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 273146600
+              "duration": 466901000
             }
           }
         ],
@@ -1283,7 +1407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30000
+              "duration": 26000
             }
           },
           {
@@ -1292,7 +1416,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41900
+              "duration": 10600
             }
           }
         ],
@@ -1303,7 +1427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38200
+              "duration": 59300
             }
           },
           {
@@ -1312,7 +1436,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 220136200
+              "duration": 216310400
             }
           }
         ]
@@ -1344,7 +1468,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 903892200
+              "duration": 1063355200
             }
           },
           {
@@ -1356,7 +1480,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307061300
+              "duration": 74553800
             }
           },
           {
@@ -1368,7 +1492,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122739000
+              "duration": 120221600
             }
           },
           {
@@ -1380,7 +1504,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 723972700
+              "duration": 753248300
             }
           },
           {
@@ -1392,7 +1516,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 937859700
+              "duration": 911307900
             }
           },
           {
@@ -1404,7 +1528,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93049300
+              "duration": 91979200
             }
           }
         ],
@@ -1415,7 +1539,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38600
+              "duration": 22900
             }
           },
           {
@@ -1424,7 +1548,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17700
+              "duration": 8700
             }
           }
         ],
@@ -1435,7 +1559,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37400
+              "duration": 62800
             }
           },
           {
@@ -1444,7 +1568,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 244024900
+              "duration": 228048700
             }
           }
         ]
@@ -1466,7 +1590,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3299541600
+              "duration": 2991254700
             }
           },
           {
@@ -1478,7 +1602,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229691200
+              "duration": 260275500
             }
           },
           {
@@ -1490,7 +1614,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 767647800
+              "duration": 757328300
             }
           },
           {
@@ -1502,7 +1626,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175683900
+              "duration": 93075200
             }
           },
           {
@@ -1514,7 +1638,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 134125100
+              "duration": 75033600
             }
           }
         ],
@@ -1525,7 +1649,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27600
+              "duration": 20000
             }
           },
           {
@@ -1534,7 +1658,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14900
+              "duration": 7200
             }
           }
         ],
@@ -1545,7 +1669,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56500
+              "duration": 39600
             }
           },
           {
@@ -1554,7 +1678,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 235922700
+              "duration": 232104300
             }
           }
         ]
@@ -1586,7 +1710,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 992308500
+              "duration": 943270600
             }
           },
           {
@@ -1598,7 +1722,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 440065000
+              "duration": 90784400
             }
           },
           {
@@ -1610,7 +1734,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110715700
+              "duration": 122643600
             }
           },
           {
@@ -1622,7 +1746,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30784600
+              "duration": 15065500
             }
           }
         ],
@@ -1633,7 +1757,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26200
+              "duration": 30600
             }
           },
           {
@@ -1642,7 +1766,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12500
+              "duration": 22500
             }
           }
         ],
@@ -1653,7 +1777,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 73800
+              "duration": 37400
             }
           },
           {
@@ -1662,7 +1786,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266664800
+              "duration": 214692000
             }
           }
         ]
@@ -1694,7 +1818,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4302203400
+              "duration": 4067055300
             }
           },
           {
@@ -1706,7 +1830,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 674733300
+              "duration": 729844800
             }
           },
           {
@@ -1718,7 +1842,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 185812400
+              "duration": 137213700
             }
           },
           {
@@ -1730,7 +1854,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147881300
+              "duration": 90964200
             }
           }
         ],
@@ -1741,7 +1865,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25900
+              "duration": 31100
             }
           },
           {
@@ -1750,7 +1874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12400
+              "duration": 19000
             }
           }
         ],
@@ -1761,7 +1885,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42900
+              "duration": 43900
             }
           },
           {
@@ -1770,7 +1894,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246522900
+              "duration": 215149600
             }
           }
         ]
@@ -1792,7 +1916,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4308355800
+              "duration": 3856221300
             }
           },
           {
@@ -1804,7 +1928,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 219675000
+              "duration": 215764900
             }
           },
           {
@@ -1815,8 +1939,9 @@
               "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:30"
             },
             "result": {
-              "status": "passed",
-              "duration": 86366600
+              "status": "failed",
+              "error_message": "expected `#<Capybara::Node::Element tag=\"div\" path=\"/HTML/BODY[1]/DIV[1]/SECTION[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]\">.visible?` to be falsey, got true (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/visualizar_informações_de_camada_steps.rb:32:in `\"eu não vejo as informações da camada em um popup\"'\nfeatures/bdd/visualizar_informações_de_camada.feature:14:in `eu não vejo as informações da camada em um popup'",
+              "duration": 122219700
             }
           }
         ],
@@ -1827,7 +1952,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27300
+              "duration": 21400
             }
           },
           {
@@ -1836,7 +1961,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13300
+              "duration": 7200
             }
           }
         ],
@@ -1847,7 +1972,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36200
+              "duration": 66200
             }
           },
           {
@@ -1856,7 +1981,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246744500
+              "duration": 212990300
             }
           }
         ]
@@ -1888,7 +2013,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3295809800
+              "duration": 3502259400
             }
           },
           {
@@ -1900,7 +2025,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 642808100
+              "duration": 744910900
             }
           },
           {
@@ -1912,7 +2037,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 141909700
+              "duration": 122433500
             }
           },
           {
@@ -1924,7 +2049,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63174000
+              "duration": 45468500
             }
           },
           {
@@ -1936,7 +2061,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26959900
+              "duration": 14222100
             }
           }
         ],
@@ -1947,7 +2072,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24500
+              "duration": 29900
             }
           },
           {
@@ -1956,7 +2081,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10800
+              "duration": 26200
             }
           }
         ],
@@ -1967,7 +2092,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37300
+              "duration": 37500
             }
           },
           {
@@ -1976,7 +2101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 231349100
+              "duration": 216370700
             }
           }
         ]
@@ -1998,7 +2123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4363461100
+              "duration": 3808075400
             }
           },
           {
@@ -2010,7 +2135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 139752000
+              "duration": 108159100
             }
           },
           {
@@ -2022,7 +2147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28591800
+              "duration": 14105600
             }
           },
           {
@@ -2034,7 +2159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27016100
+              "duration": 13835600
             }
           }
         ],
@@ -2045,7 +2170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26000
+              "duration": 21900
             }
           },
           {
@@ -2054,7 +2179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32600
+              "duration": 8100
             }
           }
         ],
@@ -2065,7 +2190,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41400
+              "duration": 47700
             }
           },
           {
@@ -2074,7 +2199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 234704900
+              "duration": 216493700
             }
           }
         ]
@@ -2106,7 +2231,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1798845100
+              "duration": 2872491200
             }
           },
           {
@@ -2118,7 +2243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 170572100
+              "duration": 152548700
             }
           },
           {
@@ -2130,7 +2255,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 168327200
+              "duration": 123443900
             }
           }
         ],
@@ -2141,7 +2266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27900
+              "duration": 20500
             }
           },
           {
@@ -2150,7 +2275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14300
+              "duration": 7700
             }
           }
         ],
@@ -2161,7 +2286,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46800
+              "duration": 46000
             }
           },
           {
@@ -2170,7 +2295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 259384800
+              "duration": 290540000
             }
           }
         ]
@@ -2192,7 +2317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1664200400
+              "duration": 1306980500
             }
           },
           {
@@ -2204,7 +2329,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 135326700
+              "duration": 107137100
             }
           },
           {
@@ -2216,7 +2341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43135400
+              "duration": 44486200
             }
           }
         ],
@@ -2227,7 +2352,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24400
+              "duration": 30500
             }
           },
           {
@@ -2236,7 +2361,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10500
+              "duration": 12300
             }
           }
         ],
@@ -2247,7 +2372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36700
+              "duration": 42100
             }
           },
           {
@@ -2256,7 +2381,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246501700
+              "duration": 216929200
             }
           }
         ]
@@ -2278,7 +2403,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1204732700
+              "duration": 1334188000
             }
           },
           {
@@ -2290,7 +2415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121880200
+              "duration": 122393100
             }
           },
           {
@@ -2302,7 +2427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 276671900
+              "duration": 44697800
             }
           }
         ],
@@ -2313,7 +2438,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29100
+              "duration": 23700
             }
           },
           {
@@ -2322,7 +2447,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14400
+              "duration": 7700
             }
           }
         ],
@@ -2333,7 +2458,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37600
+              "duration": 55200
             }
           },
           {
@@ -2342,7 +2467,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 244003800
+              "duration": 229671500
             }
           }
         ]
@@ -2364,7 +2489,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1639935000
+              "duration": 1222144700
             }
           },
           {
@@ -2376,7 +2501,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 134328800
+              "duration": 106069000
             }
           },
           {
@@ -2388,7 +2513,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53192700
+              "duration": 43511500
             }
           }
         ],
@@ -2399,7 +2524,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29600
+              "duration": 53800
             }
           },
           {
@@ -2408,7 +2533,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13700
+              "duration": 11700
             }
           }
         ],
@@ -2419,7 +2544,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39900
+              "duration": 48600
             }
           },
           {
@@ -2428,7 +2553,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 219938000
+              "duration": 214674300
             }
           }
         ]
@@ -2450,7 +2575,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1191372300
+              "duration": 1313681200
             }
           },
           {
@@ -2462,7 +2587,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 181606700
+              "duration": 202073200
             }
           },
           {
@@ -2474,7 +2599,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 262668300
+              "duration": 74749400
             }
           }
         ],
@@ -2485,7 +2610,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23500
+              "duration": 33800
             }
           },
           {
@@ -2494,7 +2619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12100
+              "duration": 8100
             }
           }
         ],
@@ -2505,7 +2630,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57500
+              "duration": 35700
             }
           },
           {
@@ -2514,7 +2639,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229872500
+              "duration": 248050500
             }
           }
         ]
@@ -2546,7 +2671,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3794580300
+              "duration": 3954020100
             }
           },
           {
@@ -2558,7 +2683,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 632495900
+              "duration": 761956600
             }
           },
           {
@@ -2570,7 +2695,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 135393800
+              "duration": 155671900
             }
           },
           {
@@ -2582,7 +2707,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 121308400
+              "duration": 44188200
             }
           }
         ],
@@ -2593,7 +2718,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52600
+              "duration": 23100
             }
           },
           {
@@ -2602,7 +2727,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40100
+              "duration": 11900
             }
           }
         ],
@@ -2613,7 +2738,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85200
+              "duration": 51500
             }
           },
           {
@@ -2622,115 +2747,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 274451700
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "ligar-e-desligar-visualizações-de-mapas-de-anos-específicos",
-    "uri": "features/camadas_OSM.feature",
-    "keyword": "Funcionalidade",
-    "name": "ligar e desligar visualizações de mapas de anos específicos",
-    "description": "",
-    "line": 3,
-    "elements": [
-      {
-        "id": "ligar-e-desligar-visualizações-de-mapas-de-anos-específicos;ativar-visualização-do-ano-no-mapa",
-        "keyword": "Cenário",
-        "name": "Ativar visualização do ano no mapa",
-        "description": "",
-        "line": 5,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 671567100
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "abro o menu camadas",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/camadas_OSM.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 107118900
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "eu clico no switch 1905",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/camadas_OSM.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122886400
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "eu quero ver o mapa do ano selecionado",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/camadas_OSM.rb:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20906900
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27600
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13800
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 51600
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 442812100
+              "duration": 226991600
             }
           }
         ]
