@@ -74,8 +74,13 @@ Isso executará o teste definido em `bdd/features/nome_do_teste.feature`.
 ## Grupo
 
 Mateus Caetano da Silva, mateus.caetano@usp.br, 12543989
+
 Nilton Tadashi Enta, nenta@usp.br, 12730911
+
 Pedro Semcovici, pedrosemcovici@usp.br, 12745511
+
 Vitor Nunes Vanjura, vitor.vanjura@usp.br, 12543183
+
 Winnie Souza Ramos da Silva, winnie.souza@usp.br, 12543972
+
 Yago Primerano Arouca, yago.primerano@usp.br, 12608643
