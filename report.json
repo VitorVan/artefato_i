@@ -1,66 +1,54 @@
 [
   {
-    "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada",
-    "uri": "features/bdd/enviar_comentario_camada.feature",
+    "id": "registro-do-usuário-no-site",
+    "uri": "features/bdd/register.feature",
     "keyword": "Funcionalidade",
-    "name": "Se logado, usuário deve poder enviar uma notificação (comentário) na camada",
+    "name": "Registro do usuário no site",
     "description": "",
     "line": 3,
     "elements": [
       {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada;enviar-notificação-estando-logado",
+        "id": "registro-do-usuário-no-site;registro-de-um-usuario-ja-cadastrado-na-plataforma",
         "keyword": "Cenário",
-        "name": "Enviar notificação estando logado",
-        "description": "",
-        "line": 5,
+        "name": "Registro de um usuario ja cadastrado na plataforma",
+        "description": "    Como o cliente da plataforma\n    Eu quero verificar como o sistema responde a solicitação de registro de um usuario ja cadastrado\n    Para que entenda o tratamento de registro",
+        "line": 28,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas",
-            "line": 6,
+            "name": "que eu sou um usuario cadastrado preenchendo todos os campos solicitados na pagina de registro",
+            "line": 33,
             "match": {
-              "location": "features/step_definitions/seguir_camada_steps.rb:1"
+              "location": "features/step_definitions/register.rb:46"
             },
             "result": {
               "status": "passed",
-              "duration": 13712176409
+              "duration": 1489300100
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste notificação camada\"",
-            "line": 7,
+            "name": "tento seguir com o cadastro",
+            "line": 34,
             "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:1"
+              "location": "features/step_definitions/register.rb:56"
             },
             "result": {
               "status": "passed",
-              "duration": 212780515
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em \"Submit\"",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122417914
+              "duration": 74566800
             }
           },
           {
             "keyword": "Então ",
-            "name": "devo ver a notificação adionada abaixo",
-            "line": 9,
+            "name": "eu sou impedido de realizar o cadastro",
+            "line": 35,
             "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:10"
+              "location": "features/step_definitions/register.rb:60"
             },
             "result": {
               "status": "passed",
-              "duration": 680636853
+              "duration": 253291000
             }
           }
         ],
@@ -71,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 195041
+              "duration": 31500
             }
           },
           {
@@ -80,7 +68,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74826
+              "duration": 27300
             }
           }
         ],
@@ -91,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133423
+              "duration": 67700
             }
           },
           {
@@ -100,105 +88,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390708785
-            }
-          }
-        ]
-      },
-      {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada;enviar-notificação-não-estando-logado",
-        "keyword": "Cenário",
-        "name": "Enviar notificação não estando logado",
-        "description": "",
-        "line": 11,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que não estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/seguir_camada_steps.rb:58"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6276245828
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste notificação camada\"",
-            "line": 13,
-            "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 126201411
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em \"Submit\"",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 91481945
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "eu espero ver uma mensagem de erro 401",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 634287742
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40778
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34460
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 68915
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 198318696
+              "duration": 246928200
             }
           }
         ]
