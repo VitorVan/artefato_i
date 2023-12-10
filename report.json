@@ -1,16 +1,16 @@
 [
   {
-    "id": "fazer-login-na-plataforma",
-    "uri": "features/bdd/alterar_informações_do_perfil.feature",
+    "id": "fazer-logout-da-plataforma",
+    "uri": "features/bdd/logout.feature",
     "keyword": "Funcionalidade",
-    "name": "Fazer login na plataforma",
-    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ter minhas informações pessoais atualizadas\nEu quero alterar as minhas informações de nome, nome de usuário e receber notificações por e-mail",
+    "name": "Fazer logout da plataforma",
+    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa não deixar meu perfil aberto ao sair da plataforma\nEu quero fazer logout do sistema",
     "line": 3,
     "elements": [
       {
-        "id": "fazer-login-na-plataforma;alterar-nome",
+        "id": "fazer-logout-da-plataforma;sair-do-perfil",
         "keyword": "Cenário",
-        "name": "Alterar nome",
+        "name": "Sair do perfil",
         "description": "",
         "line": 8,
         "type": "scenario",
@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4151347100
+              "duration": 3753357100
             }
           },
           {
@@ -36,67 +36,43 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150051600
+              "duration": 136765000
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em Meu perfil",
+            "name": "clico em sair",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
+              "location": "features/step_definitions/logout_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 121513200
+              "duration": 154407500
             }
           },
           {
-            "keyword": "E ",
-            "name": "insiro um novo nome no campo de Nome",
+            "keyword": "Então ",
+            "name": "devo ver uma mensagem de adeus",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:5"
+              "location": "features/step_definitions/logout_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 292111900
+              "duration": 92435600
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em Submit no card de perfil",
+            "name": "devo ver o botão de login",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
+              "location": "features/step_definitions/logout_steps.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 137402800
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "espero ver a mensagem \"The profile was updated with success!\"",
-            "line": 14,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 817942200
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "estar na página de painel",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15409900
+              "duration": 31669500
             }
           }
         ],
@@ -107,7 +83,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29800
+              "duration": 34500
             }
           },
           {
@@ -116,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9900
+              "duration": 9000
             }
           }
         ],
@@ -127,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86700
+              "duration": 95000
             }
           },
           {
@@ -136,275 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 260742300
-            }
-          }
-        ]
-      },
-      {
-        "id": "fazer-login-na-plataforma;alterar-nome-de-usuário",
-        "keyword": "Cenário",
-        "name": "Alterar nome de usuário",
-        "description": "",
-        "line": 17,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou logado",
-            "line": 18,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2718704200
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "clico no menu de perfil",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 151745100
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Meu perfil",
-            "line": 20,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122967300
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "insiro um novo nome no campo de User Name",
-            "line": 21,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 278710800
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Submit no card de perfil",
-            "line": 22,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122663700
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "espero ver a mensagem \"The profile was updated with success!\"",
-            "line": 23,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 678450200
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "estar na página de painel",
-            "line": 24,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13976800
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30000
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13100
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 42900
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 263982700
-            }
-          }
-        ]
-      },
-      {
-        "id": "fazer-login-na-plataforma;alterar-notificações-por-e-mail",
-        "keyword": "Cenário",
-        "name": "Alterar notificações por e-mail",
-        "description": "",
-        "line": 26,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou logado",
-            "line": 27,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2551070300
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "clico no menu de perfil",
-            "line": 28,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 231502900
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Meu perfil",
-            "line": 29,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 125113100
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico no botão de notificações por e-mail",
-            "line": 30,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 93928000
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Submit no card de perfil",
-            "line": 31,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122025600
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "espero ver a mensagem \"The profile was updated with success!\"",
-            "line": 32,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 940116700
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "estar na página de painel",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 14707300
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27700
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8700
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40200
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 246045300
+              "duration": 261864500
             }
           }
         ]
