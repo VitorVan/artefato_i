@@ -1,66 +1,102 @@
 [
   {
-    "id": "abrir-e-fechar-as-informações-da-camada-ativa",
-    "uri": "features/bdd/visualizar_informações_de_camada.feature",
+    "id": "fazer-login-na-plataforma",
+    "uri": "features/bdd/alterar_informações_do_perfil.feature",
     "keyword": "Funcionalidade",
-    "name": "Abrir e fechar as informações da camada ativa",
-    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ver mais informações sobre uma camada e interagir com ela\nEu quero abrir e fechar as informações da camada ativa  ",
+    "name": "Fazer login na plataforma",
+    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ter minhas informações pessoais atualizadas\nEu quero alterar as minhas informações de nome e nome de usuário",
     "line": 3,
     "elements": [
       {
-        "id": "abrir-e-fechar-as-informações-da-camada-ativa;abrir-as-informações-da-camada",
+        "id": "fazer-login-na-plataforma;alterar-nome",
         "keyword": "Cenário",
-        "name": "Abrir as informações da camada",
+        "name": "Alterar nome",
         "description": "",
         "line": 8,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\"",
+            "name": "que estou logado",
             "line": 9,
             "match": {
-              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:6"
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
             },
             "result": {
               "status": "passed",
-              "duration": 5288909800
+              "duration": 2890239900
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu clico no botão de configurações da camada \"A enchente de 1850\"",
+            "name": "clico no menu de perfil",
             "line": 10,
             "match": {
-              "location": "features/step_definitions/zoom_na_camada_steps.rb:1"
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
             },
             "result": {
               "status": "passed",
-              "duration": 715455200
+              "duration": 216814300
             }
           },
           {
             "keyword": "E ",
-            "name": "eu clico no botão de informações da camada",
+            "name": "clico em Meu perfil",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:1"
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 154388600
+              "duration": 153668800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "insiro um novo nome no campo de Nome",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230359100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em Submit no card de perfil",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122687700
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu vejo as informações da camada \"A enchente de 1850\" em um popup",
-            "line": 12,
+            "name": "espero ver a mensagem \"The profile was updated with success!\"",
+            "line": 14,
             "match": {
-              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:5"
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
             },
             "result": {
               "status": "passed",
-              "duration": 107798600
+              "duration": 665838000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "estar na página de painel",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14814800
             }
           }
         ],
@@ -71,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33000
+              "duration": 31100
             }
           },
           {
@@ -80,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9300
+              "duration": 9400
             }
           }
         ],
@@ -91,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58600
+              "duration": 66000
             }
           },
           {
@@ -100,54 +136,101 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246695800
+              "duration": 265471800
             }
           }
         ]
       },
       {
-        "id": "abrir-e-fechar-as-informações-da-camada-ativa;fechar-as-informações-da-camada",
+        "id": "fazer-login-na-plataforma;alterar-nome-de-usuário",
         "keyword": "Cenário",
-        "name": "Fechar as informações da camada",
+        "name": "Alterar nome de usuário",
         "description": "",
-        "line": 14,
+        "line": 17,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas",
-            "line": 15,
+            "name": "que estou logado",
+            "line": 18,
             "match": {
-              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:10"
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
             },
             "result": {
               "status": "passed",
-              "duration": 4445312700
+              "duration": 2668494800
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu clico no botão de fechar as informações da camada \"A enchente de 1850\"",
-            "line": 16,
+            "name": "clico no menu de perfil",
+            "line": 19,
             "match": {
-              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:24"
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
             },
             "result": {
               "status": "passed",
-              "duration": 200775700
+              "duration": 124478500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em Meu perfil",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151738300
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "insiro um novo nome no campo de User Name",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230315500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em Submit no card de perfil",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123540500
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu não vejo as informações da camada em um popup",
-            "line": 17,
+            "name": "espero ver a mensagem \"The profile was updated with success!\"",
+            "line": 23,
             "match": {
-              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:30"
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
             },
             "result": {
-              "status": "failed",
-              "error_message": "expected `#<Capybara::Node::Element tag=\"div\" path=\"/HTML/BODY[1]/DIV[1]/SECTION[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]\">.visible?` to be falsey, got true (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/visualizar_informações_de_camada_steps.rb:32:in `\"eu não vejo as informações da camada em um popup\"'\nfeatures/bdd/visualizar_informações_de_camada.feature:17:in `eu não vejo as informações da camada em um popup'",
-              "duration": 146182600
+              "status": "passed",
+              "duration": 791213800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "estar na página de painel",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15251700
             }
           }
         ],
@@ -158,7 +241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40400
+              "duration": 24500
             }
           },
           {
@@ -167,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23300
+              "duration": 9400
             }
           }
         ],
@@ -178,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37800
+              "duration": 40900
             }
           },
           {
@@ -187,7 +270,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 270380700
+              "duration": 265948200
             }
           }
         ]
