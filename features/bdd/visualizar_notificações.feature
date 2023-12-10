@@ -1,6 +1,9 @@
 # language: pt
 
 Funcionalidade: Ver as notificações
+Como um usuário do Pauliceia 2.0
+Para que eu possa ver as minhas notificações
+Eu quero poder ver as notificações
 
 Cenário: Abrir o menu de notificações
   Dado que estou na página de mapa com o popup de bem-vindo fechado

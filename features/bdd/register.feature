@@ -1,6 +1,9 @@
 # language: pt
 
 Funcionalidade: Registro do usuário no site
+Como um usuário do Pauliceia 2.0
+Para que eu possa fazer login na plataforma
+Eu quero me registrar na plataforma
 
     #cenario_um
     Cenário: Registro com sucesso

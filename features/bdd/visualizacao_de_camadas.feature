@@ -1,6 +1,9 @@
 # language: pt
 
 Funcionalidade: Adicionar e Remover Camadas na Visualização
+Como um usuário do Pauliceia 2.0
+Para que eu possa visualizar minhas camadas e compartilha-las com outros usuários
+Eu quero adicionar e remover camadas na visualização
 
   Cenário: Adicionar uma camada à visualização (ativar)
     Dado que estou na página de mapa com o popup de bem-vindo fechado

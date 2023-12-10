@@ -1,6 +1,9 @@
 # language: pt
 
-Funcionalidade: ligar e desligar visualizações de mapas de anos específicos
+Funcionalidade: Ligar e desligar visualizações de mapas de anos específicos
+Como um usuário do Pauliceia 2.0
+Para que eu possa visualizar os mapas de anos específicos
+Desejo poder ligar e desligar visualizações de mapas de anos específicos
 
   Cenário: Ativar visualização do ano no mapa
     Dado que eu acesso o site "https://pauliceia.unifesp.br/portal/explore"

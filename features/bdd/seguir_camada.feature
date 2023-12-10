@@ -1,6 +1,9 @@
 # language: pt
 
 Funcionalidade: Se logado, o usuário deve poder seguir ou deixar de seguir a camada
+Como um usuário do Pauliceia 2.0
+Para que eu possa ver ou deixar de ver atualizações de uma camada
+Eu quero poder seguir ou deixar de seguir uma camada
 
 Cenário: Seguir e deixar de seguir a camada estando logado
   Dado que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada "A enchente de 1850" e estou com suas informações ativas

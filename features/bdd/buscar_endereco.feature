@@ -1,6 +1,9 @@
 # language: pt
 
-Funcionalidade: Busca por endereço no mapa
+Funcionalidade: Buscar por endereço no mapa
+Como um usuário da Pauliceia 2.0
+Para que eu possa geolocalizar um endereço no mapa
+Eu quero poder buscar por um endereço
 
   Cenário: Busca por endereço válido
     Dado que estou na página "https://pauliceia.unifesp.br/portal/explore"

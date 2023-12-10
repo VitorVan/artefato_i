@@ -1,164 +1,66 @@
 [
   {
-    "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada",
-    "uri": "features/bdd/denunciar_camada.feature",
+    "id": "baixar-informações-da-camada",
+    "uri": "features/bdd/baixar_camada.feature",
     "keyword": "Funcionalidade",
-    "name": "Se logado, usuário deve poder enviar uma denuncia à camada",
-    "description": "",
+    "name": "Baixar informações da camada",
+    "description": "Como um usuário da Pauliceia 2.0\nPara que explorar offline ou usar dados brutos\nEu quero baixar os dados da camada",
     "line": 3,
     "elements": [
       {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-denuncia-estando-logado",
+        "id": "baixar-informações-da-camada;baixar-informações-da-camada",
         "keyword": "Cenário",
-        "name": "Enviar denuncia estando logado",
+        "name": "Baixar informações da camada",
         "description": "",
-        "line": 5,
+        "line": 8,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\" e estou com suas informações ativas",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/seguir_camada_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8845828200
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 184738900
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em \"!\"",
-            "line": 8,
-            "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 76501900
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "devo ver a notificação adionada abaixo",
+            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\"",
             "line": 9,
             "match": {
-              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:10"
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 419775000
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34200
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8600
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 79800
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 261629400
-            }
-          }
-        ]
-      },
-      {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-notificação-não-estando-logado",
-        "keyword": "Cenário",
-        "name": "Enviar notificação não estando logado",
-        "description": "",
-        "line": 11,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que não estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\" e estou com suas informações ativas",
-            "line": 12,
-            "match": {
-              "location": "features/step_definitions/seguir_camada_steps.rb:58"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4234778400
+              "duration": 4836730900
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
-            "line": 13,
+            "name": "eu clico no botão de configurações da camada \"A camada de teste\"",
+            "line": 10,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
+              "location": "features/step_definitions/zoom_na_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 200133800
+              "duration": 683721600
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em \"!\"",
-            "line": 14,
+            "name": "eu clico no botão de baixar camada",
+            "line": 11,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
+              "location": "features/step_definitions/baixar_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 91727000
+              "duration": 169134300
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu espero ver uma mensagem de erro 401",
-            "line": 15,
+            "name": "eu baixei um arquivo com as informações da camada \"A camada de teste\"",
+            "line": 12,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:10"
+              "location": "features/step_definitions/baixar_camada_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 201021100
+              "duration": 2473901000
             }
           }
         ],
@@ -169,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23400
+              "duration": 41500
             }
           },
           {
@@ -178,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12500
+              "duration": 10600
             }
           }
         ],
@@ -189,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41000
+              "duration": 88900
             }
           },
           {
@@ -198,7 +100,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 340699600
+              "duration": 302893200
             }
           }
         ]

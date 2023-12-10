@@ -1,7 +1,7 @@
 Quando('eu clico no botão de configurações da camada {string}') do |camada|
-  layer = find('span', text: "#{camada}") # Encontra o elemento da camada desejada pelo nome
-  settings = layer.find('button.btn-view i.md-icon', text: 'settings') # Encontra o botão de settings dentro da camada
-  settings.click # Clica no botão de settings
+  layer = find('span', text: "#{camada}")
+  settings = layer.find('button.btn-view i.md-icon', text: 'settings')
+  settings.click
 end
 
 Quando('eu clico no botão de zoom') do

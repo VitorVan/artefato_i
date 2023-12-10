@@ -47,15 +47,7 @@ E('a camada {string} está ativada') do |camada|
   expect(find('div.box-layer-info p', text: "TÍTULO: #{camada}").sibling('.btns').find('button').text).to eq('Desativar')
 end
 
-# Método auxiliar para clicar na ação de uma camada específica
 def clicar_acao_camada(acao, camada)
     element = find('div.box-layer-info p', text: "TÍTULO: #{camada}").ancestor('.box-layer-info')
     element.find('button', text: "#{acao}").click
-end
-
-# Método auxiliar para verificar se uma camada está ativada na visualização
-def camada_ativada?(camada)
-  # Lógica para verificar se a camada está ativada na visualização
-  # Use métodos do Capybara para verificar isso
-  # Por exemplo: find("#camada-#{camada}").checked? (se for um checkbox)
 end

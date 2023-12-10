@@ -1,4 +1,3 @@
-#cenario1
 Dado('que eu estou na pagina de registro de novos usuarios') do
   @test1 = RegisterPage.new
   @test1.load
@@ -22,7 +21,6 @@ Então('eu devo receber uma confirmacao de cadastro da pagina') do
   expect(page).to have_content('SUCESSO')
 end
 
-#cenario_dois
 Dado('que eu estou na página de registro de novos usuários') do
   @test2 = RegisterPage.new
   @test2.load

@@ -1,6 +1,9 @@
 # language: pt
 
-Funcionalidade: Se logado, usuário deve poder enviar uma notificação (comentário) na camada
+Funcionalidade: Se logado, usuário deve poder enviar uma notificação/comentário na camada
+Como um usuário do Pauliceia 2.0
+Para que eu possa compartilhar informações sobre uma camada com outros usuários interessados
+Eu quero poder enviar uma notificação/comentário na camada
 
 Cenário: Enviar notificação estando logado
   Dado que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada "A camada de teste" e estou com suas informações ativas

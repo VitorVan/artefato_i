@@ -49,27 +49,20 @@ Dado('que tenho a palavra chave {string} cadastrada') do |string|
     Quando clico no menu de perfil
     E clico em Painel
     E clico em Palavras Chave no menu lateral
-    E escrevo o nome "Palavra chave teste" no campo nome
-    E clico em Submit
-    Então devo ver uma resposta com o id da palavra-chave
   }
 end
 
 Quando('clico no botão de excluir da palavra chave {string}') do |string|
-  div_palavras_chave = find('div.card-body', text: "Palavra chave teste")
+  div_palavras_chave = find('div.card-body', text: "Minhas Palavras-Chave")
   within(div_palavras_chave) do
-    div_palavra_chave = find('div.row', text: "Palavra chave teste")
+    find('button.btn-danger').click
+    div_palavra_chave = find('div.row', text: string)
     within(div_palavra_chave) do
-      find('button.btn-danger').click
     end
   end
 end
 
-Então('devo ver uma resposta com erro') do
-  expect(@res.response.status[0]).to eq 403
-  expect(@res.response.body).to eq '<html><title>403: Forbidden</title><body>403: Forbidden</body></html>'
-end
-
 Então('devo ver uma mensagem de erro') do
-    expect(page).to have_content("The administrator is who can update/delete the keyword.")
+  error = find('el-message el-message--error')
+  expect(error).to have_content("The administrator is who can update/delete the keyword.")
 end

@@ -21,9 +21,9 @@ Então('eu vejo o botão de informações dos objetos desativado') do
 end
 
 E('posso clicar nos objetos para ver suas informações') do
-  expect(page).to have_css('div.ol-overlay-container.ol-selectable', visible: :all) # Write code here that turns the phrase above into concrete actions
+  expect(page).to have_css('div.ol-overlay-container.ol-selectable', visible: :all)
 end
 
 E('não posso clicar nos objetos para ver suas informações') do
-  expect(page).not_to have_css('div.ol-overlay-container.ol-selectable', visible: :all) # Write code here that turns the phrase above into concrete actions
+  expect(page).not_to have_css('div.ol-overlay-container.ol-selectable', visible: :all)
 end

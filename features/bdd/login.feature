@@ -1,6 +1,9 @@
 # language: pt
 
 Funcionalidade: Fazer login na plataforma
+Como um usuário do Pauliceia 2.0
+Para que eu possa adicionar camadas, interagir e auxiliar a comunidade
+Eu quero fazer login na plataforma
 
   Cenário: Acessar página de login
     Dado que eu acesso o site "https://pauliceia.unifesp.br/portal/explore"
