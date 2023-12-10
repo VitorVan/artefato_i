@@ -70,3 +70,12 @@ Isso executará o teste definido em `bdd/features/nome_do_teste.feature`.
 
 - Certifique-se de ter uma conexão com a internet ativa para a execução dos testes, já que eles dependem do acesso ao site [Pauliceia 2.0](https://pauliceia.unifesp.br/) hospedado na Unifesp.
 - Certifique-se de ter uma caminho válido para o webdriver no PATH do seu sistema operacional ([chromedriver Windows 10](https://www.linkedin.com/pulse/como-instalar-o-chromedriver-windows-10-jo%C3%A3o-gross/?originalSubdomain=pt), ).
+
+## Grupo
+
+Mateus Caetano da Silva, mateus.caetano@usp.br
+Nilton Tadashi Enta, nenta@usp.br
+Pedro Semcovici, pedrosemcovici@usp.br
+Vitor Nunes Vanjura, vitor.vanjura@usp.br
+Winnie Souza Ramos da Silva, winnie.souza@usp.br
+Yago Primerano Arouca, yago.primerano@usp.br
