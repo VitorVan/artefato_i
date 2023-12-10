@@ -1,66 +1,66 @@
 [
   {
-    "id": "baixar-informações-da-camada",
-    "uri": "features/bdd/baixar_camada.feature",
+    "id": "abrir-e-fechar-as-informações-da-camada-ativa",
+    "uri": "features/bdd/visualizar_informações_de_camada.feature",
     "keyword": "Funcionalidade",
-    "name": "Baixar informações da camada",
-    "description": "Como um usuário da Pauliceia 2.0\nPara que explorar offline ou usar dados brutos\nEu quero baixar os dados da camada",
+    "name": "Abrir e fechar as informações da camada ativa",
+    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ver mais informações sobre uma camada e interagir com ela\nEu quero abrir e fechar as informações da camada ativa  ",
     "line": 3,
     "elements": [
       {
-        "id": "baixar-informações-da-camada;baixar-informações-da-camada",
+        "id": "abrir-e-fechar-as-informações-da-camada-ativa;abrir-as-informações-da-camada",
         "keyword": "Cenário",
-        "name": "Baixar informações da camada",
+        "name": "Abrir as informações da camada",
         "description": "",
         "line": 8,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\"",
+            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\"",
             "line": 9,
             "match": {
               "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 4836730900
+              "duration": 5288909800
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu clico no botão de configurações da camada \"A camada de teste\"",
+            "name": "eu clico no botão de configurações da camada \"A enchente de 1850\"",
             "line": 10,
             "match": {
               "location": "features/step_definitions/zoom_na_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 683721600
+              "duration": 715455200
             }
           },
           {
             "keyword": "E ",
-            "name": "eu clico no botão de baixar camada",
+            "name": "eu clico no botão de informações da camada",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/baixar_camada_steps.rb:1"
+              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 169134300
+              "duration": 154388600
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu baixei um arquivo com as informações da camada \"A camada de teste\"",
+            "name": "eu vejo as informações da camada \"A enchente de 1850\" em um popup",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/baixar_camada_steps.rb:5"
+              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2473901000
+              "duration": 107798600
             }
           }
         ],
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41500
+              "duration": 33000
             }
           },
           {
@@ -80,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10600
+              "duration": 9300
             }
           }
         ],
@@ -91,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 88900
+              "duration": 58600
             }
           },
           {
@@ -100,7 +100,94 @@
             },
             "result": {
               "status": "passed",
-              "duration": 302893200
+              "duration": 246695800
+            }
+          }
+        ]
+      },
+      {
+        "id": "abrir-e-fechar-as-informações-da-camada-ativa;fechar-as-informações-da-camada",
+        "keyword": "Cenário",
+        "name": "Fechar as informações da camada",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4445312700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu clico no botão de fechar as informações da camada \"A enchente de 1850\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200775700
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu não vejo as informações da camada em um popup",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/visualizar_informações_de_camada_steps.rb:30"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected `#<Capybara::Node::Element tag=\"div\" path=\"/HTML/BODY[1]/DIV[1]/SECTION[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]\">.visible?` to be falsey, got true (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/visualizar_informações_de_camada_steps.rb:32:in `\"eu não vejo as informações da camada em um popup\"'\nfeatures/bdd/visualizar_informações_de_camada.feature:17:in `eu não vejo as informações da camada em um popup'",
+              "duration": 146182600
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270380700
             }
           }
         ]

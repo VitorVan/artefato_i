@@ -16,7 +16,7 @@ Dado('que estou na página de mapa, abri o seletor de camadas e ativei a camada 
     E eu clico no icone de fechar
     Então eu devo ver a camada "#{string}" adicionada à visualização 
     Quando eu clico no botão de configurações da camada "#{string}"
-    E eu clico no botão de informações da camada "#{string}"
+    E eu clico no botão de informações da camada
     Então eu vejo as informações da camada "#{string}" em um popup
   }
 end
