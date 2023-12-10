@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
@@ -18,6 +18,8 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    crack (0.4.5)
+      rexml
     cucumber (9.1.0)
       builder (~> 3.2, >= 3.2.4)
       cucumber-ci-environment (~> 9.2, >= 9.2.0)
@@ -43,13 +45,17 @@ GEM
     cucumber-messages (22.0.0)
     cucumber-tag-expressions (5.0.6)
     diff-lcs (1.5.0)
+    ffi (1.16.3)
     ffi (1.16.3-x64-mingw-ucrt)
+    hashdiff (1.0.1)
     io-like (0.3.1)
     json (2.7.1)
     matrix (0.4.2)
     mini_mime (1.1.5)
     multi_test (1.1.0)
     nokogiri (1.15.5-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
     public_suffix (5.0.4)
     racc (1.7.3)
@@ -80,12 +86,17 @@ GEM
       websocket (~> 1.0)
     sys-uname (1.2.3)
       ffi (~> 1.1)
+    webmock (3.19.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
     websocket (1.2.10)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   capybara
@@ -94,6 +105,7 @@ DEPENDENCIES
   report_builder
   rspec
   selenium-webdriver
+  webmock
 
 BUNDLED WITH
    2.4.10

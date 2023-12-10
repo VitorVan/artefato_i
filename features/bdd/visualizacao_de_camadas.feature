@@ -3,7 +3,7 @@
 Funcionalidade: Adicionar e Remover Camadas na Visualização
 
   Cenário: Adicionar uma camada à visualização (ativar)
-    Dado que estou na página de mapa
+    Dado que estou na página de mapa com o popup de bem-vindo fechado
     Quando abro o seletor de camadas
     E eu clico no ícone de adicionar ou remover camadas
     E eu clico no botão "Ativar" da camada "A enchente de 1850"
