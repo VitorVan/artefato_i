@@ -17,7 +17,7 @@ Dado('realize a adicao de uma referencia no formato ABNT') do
 end
 
 Quando('eu importar o shapefile dos enderecos da camada a ser adicionada') do
-  @test1.uploadShapefile('baixados.zip')
+  @test1.uploadShapefile(SUPPORT_TESTING[:pathFileShapefile])
 end
 
 Dado('configurar a data de referencia da camada') do
@@ -47,7 +47,7 @@ Dado('que eu quero excluir a camada que criei') do
   @test2.keywordsSelect
   @test2.fillfields(NAME, description)
   @test2.refABNT(CREDENCIAL[:refABNT])
-  @test2.uploadShapefile('baixados.zip')
+  @test2.uploadShapefile(SUPPORT_TESTING[:pathFileShapefile])
   @test2.buttonSendLayer1.click
   @test2.configDate('ano', 'YYYY')
   @test2.buttonSendLayer2.click
