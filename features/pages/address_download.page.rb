@@ -49,15 +49,6 @@ class AddRessDownloadPage < SitePrism::Page
     return test_true.all?
   end
 
-  def directDownload(download_directory)
-    options = Selenium::WebDriver::Chrome::Options.new
-    options.add_preference(:download, prompt_for_download: false)
-    options.add_preference(:download, default_directory: download_directory)
-
-    driver = Selenium::WebDriver.for :chrome, options: options
-    return driver
-  end
-
   def extract_zip(file, path_dest)
     Zip::File.open(file) do |zip_file|
       zip_file.each do |arq|
