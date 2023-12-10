@@ -1,102 +1,66 @@
 [
   {
-    "id": "se-logado,-o-usuário-deve-poder-cadastrar-palavra-chave-e-não-deve-poder-excluí-la",
-    "uri": "features/bdd/cadastrar_palavra_chave.feature",
+    "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada",
+    "uri": "features/bdd/denunciar_camada.feature",
     "keyword": "Funcionalidade",
-    "name": "Se logado, o usuário deve poder cadastrar palavra chave e não deve poder excluí-la",
+    "name": "Se logado, usuário deve poder enviar uma denuncia à camada",
     "description": "",
     "line": 3,
     "elements": [
       {
-        "id": "se-logado,-o-usuário-deve-poder-cadastrar-palavra-chave-e-não-deve-poder-excluí-la;cadastrar-nova-palavra-chave",
+        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-denuncia-estando-logado",
         "keyword": "Cenário",
-        "name": "Cadastrar nova palavra chave",
+        "name": "Enviar denuncia estando logado",
         "description": "",
         "line": 5,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou logado",
+            "name": "que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\" e estou com suas informações ativas",
             "line": 6,
             "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
+              "location": "features/step_definitions/seguir_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 2592205300
+              "duration": 8845828200
             }
           },
           {
             "keyword": "Quando ",
-            "name": "clico no menu de perfil",
+            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
+              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 153331500
+              "duration": 184738900
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em Painel",
+            "name": "clico em \"!\"",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:19"
+              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 119760600
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Palavras Chave no menu lateral",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 152537200
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "escrevo o nome \"Palavra chave teste\" no campo nome",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 166687700
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Submit",
-            "line": 11,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 154994400
+              "duration": 76501900
             }
           },
           {
             "keyword": "Então ",
-            "name": "devo ver uma resposta com o id da palavra-chave",
-            "line": 12,
+            "name": "devo ver a notificação adionada abaixo",
+            "line": 9,
             "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:38"
+              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 3280100
+              "duration": 419775000
             }
           }
         ],
@@ -104,6 +68,124 @@
           {
             "match": {
               "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261629400
+            }
+          }
+        ]
+      },
+      {
+        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-notificação-não-estando-logado",
+        "keyword": "Cenário",
+        "name": "Enviar notificação não estando logado",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que não estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A camada de teste\" e estou com suas informações ativas",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/seguir_camada_steps.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4234778400
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200133800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em \"!\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91727000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu espero ver uma mensagem de erro 401",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201021100
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
@@ -112,177 +194,11 @@
           },
           {
             "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 28300
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 57800
-            }
-          },
-          {
-            "match": {
               "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 226762400
-            }
-          }
-        ]
-      },
-      {
-        "id": "se-logado,-o-usuário-deve-poder-cadastrar-palavra-chave-e-não-deve-poder-excluí-la;excluir-palavra-chave",
-        "keyword": "Cenário",
-        "name": "Excluir palavra chave",
-        "description": "",
-        "line": 14,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que estou logado",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2024083300
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "que tenho a palavra chave \"Palavra chave teste\" cadastrada",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:47"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 697893600
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "clico no menu de perfil",
-            "line": 17,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 75380600
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Painel",
-            "line": 18,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 137334400
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em Palavras Chave no menu lateral",
-            "line": 19,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 139635900
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico no botão de excluir da palavra chave \"Palavra chave teste\"",
-            "line": 20,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:58"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 358947200
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "devo ver uma resposta com erro",
-            "line": 21,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:68"
-            },
-            "result": {
-              "status": "failed",
-              "error_message": "\nexpected: 403\n     got: 200\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/cadastrar_palavra_chave_steps.rb:69:in `\"devo ver uma resposta com erro\"'\nfeatures/bdd/cadastrar_palavra_chave.feature:21:in `devo ver uma resposta com erro'",
-              "duration": 26372300
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "devo ver uma mensagem de erro",
-            "line": 22,
-            "match": {
-              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:73"
-            },
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34800
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34800
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40900
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 229924900
+              "duration": 340699600
             }
           }
         ]

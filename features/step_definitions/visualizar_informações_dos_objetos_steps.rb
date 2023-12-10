@@ -1,7 +1,7 @@
 Dado("que estou na página de mapa, abri o seletor de camadas e ativei a camada {string} e estou com suas informações de objeto ativas") do |camada|
   steps %Q{
     Dado que estou na página de mapa, abri o seletor de camadas e ativei a camada "#{camada}"
-    Quando eu clico no botão de configurações da camada "A enchente de 1850"
+    Quando eu clico no botão de configurações da camada "#{camada}"
     E eu clico no botão de informações dos objetos
     Então eu vejo o botão de informações dos objetos ativo
     E posso clicar nos objetos para ver suas informações

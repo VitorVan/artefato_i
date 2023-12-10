@@ -8,9 +8,9 @@ Dado("que estou na página de mapa, abri o seletor de camadas e ativei a camada 
     Dado que estou na página de mapa com o popup de bem-vindo fechado
     Quando abro o seletor de camadas
     E eu clico no ícone de adicionar ou remover camadas
-    E eu clico no botão "Ativar" da camada "A enchente de 1850"
+    E eu clico no botão "Ativar" da camada "#{camada}"
     E eu clico no icone de fechar
-    Então eu devo ver a camada "A enchente de 1850" adicionada à visualização 
+    Então eu devo ver a camada "#{camada}" adicionada à visualização 
   }
 end
 
@@ -36,15 +36,15 @@ Quando('eu clico no icone de fechar') do
 end
 
 Então('eu devo ver a camada {string} adicionada à visualização') do |camada|
-  expect(page).to have_css('section.box-layers', text: 'A enchente de 1850')
+  expect(page).to have_css('section.box-layers', text: camada)
 end
 
 Então('eu não devo ver a camada {string} adicionada à visualização') do |camada|
-  expect(page).not_to have_css('section.box-layers', text: 'A enchente de 1850')
+  expect(page).not_to have_css('section.box-layers', text: camada)
 end
 
 E('a camada {string} está ativada') do |camada|
-  expect(find('div.box-layer-info p', text: 'TÍTULO: A enchente de 1850').sibling('.btns').find('button').text).to eq('Desativar')
+  expect(find('div.box-layer-info p', text: "TÍTULO: #{camada}").sibling('.btns').find('button').text).to eq('Desativar')
 end
 
 # Método auxiliar para clicar na ação de uma camada específica

@@ -10,7 +10,7 @@ Dado('que estou logado, na pagina de mapa, abri o seletor de camadas e ativei a 
     Dado que estou na página de mapa, abri o seletor de camadas e ativei a camada "#{camada}"
     Quando eu clico no botão de configurações da camada "#{camada}"
     E eu clico no botão de informações da camada
-    Então eu vejo as informações da camada em um popup
+    Então eu vejo as informações da camada "#{camada}" em um popup
   }
 end
 
@@ -26,7 +26,7 @@ Dado('que eu sigo a camada {string}') do |camada|
     Dado que estou na página de mapa, abri o seletor de camadas e ativei a camada "#{camada}"
     Quando eu clico no botão de configurações da camada "#{camada}"
     E eu clico no botão de informações da camada
-    Então eu vejo as informações da camada em um popup
+    Então eu vejo as informações da camada "#{camada}" em um popup
     Quando eu clico no botão de seguir a camada "#{camada}"
     Então eu espero ver uma mensagem de sucesso indicando que a camada foi seguida
     E eu espero ver o botão de deixar de seguir a camada
@@ -60,7 +60,7 @@ Dado('que não estou logado, na pagina de mapa, abri o seletor de camadas e ativ
     Dado que estou na página de mapa, abri o seletor de camadas e ativei a camada "#{camada}"
     Quando eu clico no botão de configurações da camada "#{camada}"
     E eu clico no botão de informações da camada
-    Então eu vejo as informações da camada em um popup
+    Então eu vejo as informações da camada "#{camada}" em um popup
   }
 end
 
