@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27827786652
+              "duration": 15792182417
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 574532321
+              "duration": 315838872
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 303473852
+              "duration": 137211098
             }
           },
           {
@@ -60,7 +60,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2520023895
+              "duration": 819709777
             }
           }
         ],
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58403
+              "duration": 53215
             }
           },
           {
@@ -80,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26690
+              "duration": 22116
             }
           }
         ],
@@ -91,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 195704
+              "duration": 195899
             }
           },
           {
@@ -100,7 +100,105 @@
             },
             "result": {
               "status": "passed",
-              "duration": 621131655
+              "duration": 366741659
+            }
+          }
+        ]
+      },
+      {
+        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-notificação-não-estando-logado",
+        "keyword": "Cenário",
+        "name": "Enviar notificação não estando logado",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que não estou logado, na pagina de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\" e estou com suas informações ativas",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/seguir_camada_steps.rb:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5845665350
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169614801
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em \"!\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101941855
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu espero ver uma mensagem de erro 401",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/denuncia_camada_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810504775
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69648
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51508
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103203
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277182895
             }
           }
         ]
