@@ -1,91 +1,73 @@
 [
   {
-    "id": "adicionar-e-remover-camadas-na-visualização",
-    "uri": "features/avisualizacao_de_camadas.feature",
+    "id": "download-de-enderecos-buscados",
+    "uri": "features/bdd/address_download.feature",
     "keyword": "Funcionalidade",
-    "name": "Adicionar e Remover Camadas na Visualização",
+    "name": "download de enderecos buscados",
     "description": "",
     "line": 3,
     "elements": [
       {
-        "id": "adicionar-e-remover-camadas-na-visualização;adicionar-uma-camada-à-visualização-(ativar)",
-        "keyword": "Cenário",
-        "name": "Adicionar uma camada à visualização (ativar)",
-        "description": "",
-        "line": 5,
+        "id": "download-de-enderecos-buscados;busca-por-arquivo-csv-com-sucesso",
+        "keyword": "Cenario",
+        "name": "busca por arquivo csv com sucesso",
+        "description": "    Como o usuario da plataforma\n    Eu quero conseguir realizar o upload dos enderecos que tenho por um arquivo csv\n    Para que eu possa utiliza-lo para outras finalidades",
+        "line": 6,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na página de mapa",
-            "line": 6,
+            "name": "que eu busque por 3 enderecos no mapa por meio de um arquivo csv no padrao estabelecido",
+            "line": 11,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:1"
+              "location": "features/step_definitions/addressDownload.rb:2"
             },
             "result": {
               "status": "passed",
-              "duration": 7980895200
+              "duration": 2867162600
             }
           },
           {
             "keyword": "Quando ",
-            "name": "abro o seletor de camadas",
-            "line": 7,
+            "name": "eu fizer o upload do arquivo",
+            "line": 12,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:18"
+              "location": "features/step_definitions/addressDownload.rb:7"
             },
             "result": {
               "status": "passed",
-              "duration": 106027500
+              "duration": 277647500
             }
           },
           {
             "keyword": "E ",
-            "name": "eu clico no ícone de adicionar ou remover camadas",
-            "line": 8,
+            "name": "fazer a identificacao das colunas solicitadas pela plataforma",
+            "line": 13,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:22"
+              "location": "features/step_definitions/addressDownload.rb:11"
             },
             "result": {
               "status": "passed",
-              "duration": 168350000
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "eu clico no botão \"Ativar\" da camada \"A enchente de 1850\"",
-            "line": 9,
-            "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 760792000
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "eu clico no icone de fechar",
-            "line": 10,
-            "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 962776600
+              "duration": 1317966500
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu devo ver a camada \"A enchente de 1850\" adicionada à visualização",
-            "line": 11,
+            "name": "ao realizar a busca desejo saber se os meus enderecos foram encontrados",
+            "line": 14,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:39"
+              "location": "features/step_definitions/addressDownload.rb:14"
             },
             "result": {
               "status": "passed",
-              "duration": 62017600
+              "duration": 5138776400
             }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@csv_success",
+            "line": 5
           }
         ],
         "before": [
@@ -95,7 +77,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41700
+              "duration": 30700
             }
           },
           {
@@ -104,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14600
+              "duration": 27600
             }
           }
         ],
@@ -115,77 +97,53 @@
             },
             "result": {
               "status": "passed",
-              "duration": 326252200
+              "duration": 252667400
             }
           }
         ]
       },
       {
-        "id": "adicionar-e-remover-camadas-na-visualização;remover-uma-camada-da-visualização-(desativar)",
-        "keyword": "Cenário",
-        "name": "Remover uma camada da visualização (desativar)",
-        "description": "",
-        "line": 13,
+        "id": "download-de-enderecos-buscados;download-de-arquivo-shapefile-dos-enderecos-encontrados",
+        "keyword": "Cenario",
+        "name": "download de arquivo shapefile dos enderecos encontrados",
+        "description": "    Como o usuario da plataforma\n    Eu quero conseguir realizar o download do Shapefile dos enderecos que busquei nela\n    Para que eu possa utiliza-lo em outras atividades",
+        "line": 17,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
-            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\"",
-            "line": 14,
+            "name": "que eu tenha realizado os passos anteriores de pesquisa de lote de enderecos",
+            "line": 22,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:5"
+              "location": "features/step_definitions/addressDownload.rb:29"
             },
             "result": {
               "status": "passed",
-              "duration": 3013266400
+              "duration": 9412565200
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu clico no ícone de adicionar ou remover camadas",
-            "line": 15,
+            "name": "realizo o download do shapefile dos enderecos buscados",
+            "line": 23,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:22"
+              "location": "features/step_definitions/addressDownload.rb:43"
             },
             "result": {
               "status": "passed",
-              "duration": 266170800
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "eu clico no botão \"Desativar\" da camada \"A enchente de 1850\"",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 703755100
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "eu clico no icone de fechar",
-            "line": 17,
-            "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 91768900
+              "duration": 2689860800
             }
           },
           {
             "keyword": "Então ",
-            "name": "eu não devo ver a camada \"A enchente de 1850\" adicionada à visualização",
-            "line": 18,
+            "name": "o arquivo e baixado",
+            "line": 24,
             "match": {
-              "location": "features/step_definitions/avisualizacao_de_camadas_steps.rb:43"
+              "location": "features/step_definitions/addressDownload.rb:52"
             },
             "result": {
               "status": "passed",
-              "duration": 62264900
+              "duration": 20333200
             }
           }
         ],
@@ -196,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30200
+              "duration": 28800
             }
           },
           {
@@ -205,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12200
+              "duration": 17200
             }
           }
         ],
@@ -216,7 +174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230924400
+              "duration": 287535000
             }
           }
         ]
@@ -225,7 +183,7 @@
   },
   {
     "id": "busca-por-endereço-no-mapa",
-    "uri": "features/buscar_endereco.feature",
+    "uri": "features/bdd/buscar_endereco.feature",
     "keyword": "Funcionalidade",
     "name": "Busca por endereço no mapa",
     "description": "",
@@ -248,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1013379000
+              "duration": 2998047700
             }
           },
           {
@@ -260,7 +218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 320916800
+              "duration": 344728600
             }
           },
           {
@@ -272,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 338896500
+              "duration": 358169800
             }
           }
         ],
@@ -283,7 +241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24200
+              "duration": 43400
             }
           },
           {
@@ -292,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10400
+              "duration": 20000
             }
           }
         ],
@@ -303,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246704500
+              "duration": 244279000
             }
           }
         ]
@@ -313,43 +271,43 @@
         "keyword": "Cenário",
         "name": "Tentativa de busca por endereço vazio",
         "description": "",
-        "line": 10,
+        "line": 11,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
             "name": "que estou na página \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 11,
+            "line": 12,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 881204800
+              "duration": 2573255700
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu procuro por um endereço vazio",
-            "line": 12,
+            "line": 13,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:10"
             },
             "result": {
               "status": "passed",
-              "duration": 260539600
+              "duration": 154230700
             }
           },
           {
             "keyword": "Então ",
             "name": "eu devo ver uma mensagem de erro indicando a necessidade de procurar por rua, número, ano",
-            "line": 13,
+            "line": 14,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:24"
             },
             "result": {
               "status": "passed",
-              "duration": 183879700
+              "duration": 215773500
             }
           }
         ],
@@ -360,7 +318,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30500
+              "duration": 27500
             }
           },
           {
@@ -369,7 +327,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7700
+              "duration": 10900
             }
           }
         ],
@@ -380,7 +338,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 260305600
+              "duration": 233027500
             }
           }
         ]
@@ -390,43 +348,43 @@
         "keyword": "Cenário",
         "name": "Tentativa de busca por endereço com rua inexistente",
         "description": "",
-        "line": 15,
+        "line": 16,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
             "name": "que estou na página \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 16,
+            "line": 17,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 1058672200
+              "duration": 4653269800
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu procuro pelo endereço com rua \"rua que nao existe\", número  \"21\" e ano \"1909\"",
-            "line": 17,
+            "line": 18,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 278941500
+              "duration": 341982600
             }
           },
           {
             "keyword": "Então ",
             "name": "eu devo ver uma mensagem de erro indicando que não há pontos sufiicientes para a geolocalização com rua \"rua que nao existe\", número  \"21\" e ano \"1909\"",
-            "line": 18,
+            "line": 19,
             "match": {
               "location": "features/step_definitions/buscar_endereco_steps.rb:28"
             },
             "result": {
               "status": "passed",
-              "duration": 1139097500
+              "duration": 640105200
             }
           }
         ],
@@ -437,7 +395,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33500
+              "duration": 29000
             }
           },
           {
@@ -446,7 +404,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9300
+              "duration": 16500
             }
           }
         ],
@@ -457,7 +415,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 280716500
+              "duration": 233651500
             }
           }
         ]
@@ -479,7 +437,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 743974500
+              "duration": 2493034200
             }
           },
           {
@@ -491,7 +449,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 400791100
+              "duration": 328987100
             }
           },
           {
@@ -503,7 +461,94 @@
             },
             "result": {
               "status": "passed",
-              "duration": 186317000
+              "duration": 201613100
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232857200
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fazer-login-na-plataforma",
+    "uri": "features/bdd/login.feature",
+    "keyword": "Funcionalidade",
+    "name": "Fazer login na plataforma",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "fazer-login-na-plataforma;acessar-página-de-login",
+        "keyword": "Cenário",
+        "name": "Acessar página de login",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2412098500
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu clico no link \"Entrar\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107826500
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu quero ser redirecionado para a página de login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35852400
             }
           }
         ],
@@ -534,94 +579,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277637200
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "fazer-login-na-plataforma",
-    "uri": "features/login.feature",
-    "keyword": "Funcionalidade",
-    "name": "Fazer login na plataforma",
-    "description": "",
-    "line": 3,
-    "elements": [
-      {
-        "id": "fazer-login-na-plataforma;acessar-página-de-login",
-        "keyword": "Cenário",
-        "name": "Acessar página de login",
-        "description": "",
-        "line": 4,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 5,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1007875400
-            }
-          },
-          {
-            "keyword": "Quando ",
-            "name": "eu clico no link \"Entrar\"",
-            "line": 6,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 262364600
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "eu quero ser redirecionado para a página de login",
-            "line": 7,
-            "match": {
-              "location": "features/step_definitions/login_steps.rb:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 39961700
-            }
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 20900
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8000
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 250183100
+              "duration": 255777600
             }
           }
         ]
@@ -631,91 +589,91 @@
         "keyword": "Cenário",
         "name": "Realizar login com credenciais válidas",
         "description": "",
-        "line": 9,
+        "line": 10,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
             "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 10,
+            "line": 11,
             "match": {
               "location": "features/step_definitions/login_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 1120549700
+              "duration": 2418174000
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu clico no link \"Entrar\"",
-            "line": 11,
+            "line": 12,
             "match": {
               "location": "features/step_definitions/login_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 229338300
+              "duration": 105969000
             }
           },
           {
             "keyword": "Então ",
             "name": "eu quero ser redirecionado para a página de login",
-            "line": 12,
+            "line": 13,
             "match": {
               "location": "features/step_definitions/login_steps.rb:13"
             },
             "result": {
               "status": "passed",
-              "duration": 13540400
+              "duration": 15246000
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu preencho o campo de email com \"pauliceiateste@gmail.com\"",
-            "line": 13,
+            "line": 14,
             "match": {
               "location": "features/step_definitions/login_steps.rb:17"
             },
             "result": {
               "status": "passed",
-              "duration": 184872300
+              "duration": 219468700
             }
           },
           {
             "keyword": "E ",
             "name": "eu preencho o campo de senha com \"Testepauliceia12345\"",
-            "line": 14,
+            "line": 15,
             "match": {
               "location": "features/step_definitions/login_steps.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 153149400
+              "duration": 138704100
             }
           },
           {
             "keyword": "E ",
             "name": "eu clico no botão \"Entrar\"",
-            "line": 15,
+            "line": 16,
             "match": {
               "location": "features/step_definitions/login_steps.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 124108000
+              "duration": 93254300
             }
           },
           {
             "keyword": "Então ",
             "name": "eu quero fazer login",
-            "line": 16,
+            "line": 17,
             "match": {
               "location": "features/step_definitions/login_steps.rb:25"
             },
             "result": {
               "status": "passed",
-              "duration": 679420100
+              "duration": 417440900
             }
           }
         ],
@@ -726,7 +684,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34100
+              "duration": 38000
             }
           },
           {
@@ -735,7 +693,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9900
+              "duration": 33100
             }
           }
         ],
@@ -746,7 +704,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229964900
+              "duration": 266207300
             }
           }
         ]
@@ -756,91 +714,91 @@
         "keyword": "Cenário",
         "name": "Tentativa de login com credenciais inválidas",
         "description": "",
-        "line": 18,
+        "line": 19,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Dado ",
             "name": "que eu acesso o site \"https://pauliceia.unifesp.br/portal/explore\"",
-            "line": 19,
+            "line": 20,
             "match": {
               "location": "features/step_definitions/login_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 806333500
+              "duration": 2666284300
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu clico no link \"Entrar\"",
-            "line": 20,
+            "line": 21,
             "match": {
               "location": "features/step_definitions/login_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 246167100
+              "duration": 122635000
             }
           },
           {
             "keyword": "Então ",
             "name": "eu quero ser redirecionado para a página de login",
-            "line": 21,
+            "line": 22,
             "match": {
               "location": "features/step_definitions/login_steps.rb:13"
             },
             "result": {
               "status": "passed",
-              "duration": 14299000
+              "duration": 11710100
             }
           },
           {
             "keyword": "Quando ",
             "name": "eu preencho o campo de email com \"emailinvalido@gmail.com\"",
-            "line": 22,
+            "line": 23,
             "match": {
               "location": "features/step_definitions/login_steps.rb:17"
             },
             "result": {
               "status": "passed",
-              "duration": 167525000
+              "duration": 231850600
             }
           },
           {
             "keyword": "E ",
             "name": "eu preencho o campo de senha com \"senhaerrada123\"",
-            "line": 23,
+            "line": 24,
             "match": {
               "location": "features/step_definitions/login_steps.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 138157300
+              "duration": 124491000
             }
           },
           {
             "keyword": "E ",
             "name": "eu clico no botão \"Entrar\"",
-            "line": 24,
+            "line": 25,
             "match": {
               "location": "features/step_definitions/login_steps.rb:9"
             },
             "result": {
               "status": "passed",
-              "duration": 107508000
+              "duration": 107907000
             }
           },
           {
             "keyword": "Então ",
             "name": "eu quero ver uma mensagem de erro de login",
-            "line": 25,
+            "line": 26,
             "match": {
               "location": "features/step_definitions/login_steps.rb:29"
             },
             "result": {
               "status": "passed",
-              "duration": 371099000
+              "duration": 231586700
             }
           }
         ],
@@ -851,7 +809,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29700
+              "duration": 39800
             }
           },
           {
@@ -860,7 +818,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9800
+              "duration": 27400
             }
           }
         ],
@@ -871,7 +829,496 @@
             },
             "result": {
               "status": "passed",
-              "duration": 246176000
+              "duration": 232736300
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "registro-do-usuário-no-site",
+    "uri": "features/bdd/register.feature",
+    "keyword": "Funcionalidade",
+    "name": "Registro do usuário no site",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "registro-do-usuário-no-site;registro-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Registro com sucesso",
+        "description": "    Como um novo usuário da plataforma\n    Eu quero conseguir me registrar nela\n    Para que eu consiga acessar o site logado",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu estou na pagina de registro de novos usuarios",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/register.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324049300
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "terminar de preencher todos os campos da tela, incluindo a aceitacao de termos de uso",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/register.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 667843400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "sigo com o cadastro",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/register.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93361800
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu devo receber uma confirmacao de cadastro da pagina",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/register.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249387400
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231639500
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-do-usuário-no-site;registro-invalido-por-nao-aceitar-os-termos-de-uso",
+        "keyword": "Cenário",
+        "name": "Registro invalido por nao aceitar os termos de uso",
+        "description": "    Como o cliente da plataforma\n    Eu quero que meus usuários consigam se registrar nela somente se aceitarem os termos de uso\n    Para que concluir seu cadastro",
+        "line": 17,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu estou na página de registro de novos usuários",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/register.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291636700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "preencho todos os campos da tela",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/register.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575685400
+            }
+          },
+          {
+            "keyword": "Mas ",
+            "name": "não preencho o checkbox de aceitação de termos de uso",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/register.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45011500
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu serei impedido de realizar o cadastro",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/register.rb:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29382900
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247956000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-do-usuário-no-site;registro-de-um-usuario-ja-cadastrado-na-plataforma",
+        "keyword": "Cenário",
+        "name": "Registro de um usuario ja cadastrado na plataforma",
+        "description": "    Como o cliente da plataforma\n    Eu quero verificar como o sistema responde a solicitação de registro de um usuario ja cadastrado\n    Para que entenda o tratamento de registro",
+        "line": 28,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu sou um usuario cadastrado preenchendo todos os campos solicitados na pagina de registro",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/register.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 972322200
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "tento seguir com o cadastro",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/register.rb:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92475100
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu sou impedido de realizar o cadastro",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/register.rb:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280090900
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233538400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adicionar-e-remover-camadas-na-visualização",
+    "uri": "features/bdd/visualizacao_de_camadas.feature",
+    "keyword": "Funcionalidade",
+    "name": "Adicionar e Remover Camadas na Visualização",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "adicionar-e-remover-camadas-na-visualização;adicionar-uma-camada-à-visualização-(ativar)",
+        "keyword": "Cenário",
+        "name": "Adicionar uma camada à visualização (ativar)",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na página de mapa",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2997035300
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "abro o seletor de camadas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91901000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no ícone de adicionar ou remover camadas",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155728500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no botão \"Ativar\" da camada \"A enchente de 1850\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671910400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no icone de fechar",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 962570900
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu devo ver a camada \"A enchente de 1850\" adicionada à visualização",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78007500
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8100
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247496000
+            }
+          }
+        ]
+      },
+      {
+        "id": "adicionar-e-remover-camadas-na-visualização;remover-uma-camada-da-visualização-(desativar)",
+        "keyword": "Cenário",
+        "name": "Remover uma camada da visualização (desativar)",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na página de mapa, abri o seletor de camadas e ativei a camada \"A enchente de 1850\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4547629600
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu clico no ícone de adicionar ou remover camadas",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263856900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no botão \"Desativar\" da camada \"A enchente de 1850\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 608333300
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "eu clico no icone de fechar",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90485600
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "eu não devo ver a camada \"A enchente de 1850\" adicionada à visualização",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/visualizacao_de_camadas_steps.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60515900
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249088400
             }
           }
         ]
