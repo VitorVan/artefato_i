@@ -12,19 +12,9 @@ Certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:
 
 ### Instalando o WebDriver ChromeDriver
 
-Para rodar os testes no navegador Google Chrome, é necessário ter o WebDriver ChromeDriver instalado.
+Para rodar os testes no navegador Google Chrome (recomendado), é necessário ter o WebDriver ChromeDriver instalado.
 
-#### Instalação via Homebrew (Mac)
-
-Se estiver usando macOS e o Homebrew, você pode instalar o ChromeDriver com o seguinte comando:
-
-```
-brew install chromedriver
-```
-
-#### Outros sistemas operacionais
-
-Para outras plataformas, você pode baixar o ChromeDriver diretamente do site oficial do Chromium: [ChromeDriver Downloads](https://sites.google.com/chromium.org/driver/). Certifique-se de ter uma caminho válido para o webdriver no PATH do seu sistema operacional.
+Para baixar o chromedriver, acesse diretamente o site oficial do Chromium: [ChromeDriver Downloads](https://sites.google.com/chromium.org/driver/).
 
 ## Execução
 
@@ -78,4 +68,5 @@ Isso executará o teste definido em `bdd/features/nome_do_teste.feature`.
 
 ## Notas
 
-Certifique-se de ter uma conexão com a internet ativa para a execução dos testes, já que eles dependem do acesso ao site Pauliceia 2.0 hospedado na Unifesp em https://pauliceia.unifesp.br/.
+- Certifique-se de ter uma conexão com a internet ativa para a execução dos testes, já que eles dependem do acesso ao site [Pauliceia 2.0](https://pauliceia.unifesp.br/) hospedado na Unifesp.
+- Certifique-se de ter uma caminho válido para o webdriver no PATH do seu sistema operacional ([chromedriver Windows 10](https://www.linkedin.com/pulse/como-instalar-o-chromedriver-windows-10-jo%C3%A3o-gross/?originalSubdomain=pt), ).
