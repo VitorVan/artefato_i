@@ -1,6 +1,7 @@
 # language: pt
 
 Funcionalidade: Fazer login na plataforma
+
   Cenário: Acessar página de login
     Dado que eu acesso o site "https://pauliceia.unifesp.br/portal/explore"
     Quando eu clico no link "Entrar"
