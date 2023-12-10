@@ -6,7 +6,7 @@ Dado('que eu busque por 3 enderecos no mapa por meio de um arquivo csv no padrao
 end
 Quando('eu fizer o upload do arquivo') do
   @test1.infoWelcomeCloseButton.click
-  @test1.uploadClick('AddressCSV.csv')
+  @test1.uploadClick(SUPPORT_TESTING[:pathFileCSV])
 end
 Dado('fazer a identificacao das colunas solicitadas pela plataforma') do
   @test1.columnsidentification('nome da rua', 'numero', 'ano')
@@ -31,7 +31,7 @@ Dado('que eu tenha realizado os passos anteriores de pesquisa de lote de enderec
   @test2.load
   @test2.batchSearchButton.click
   @test2.infoWelcomeCloseButton.click
-  @test2.uploadClick('AddressCSV.csv')
+  @test2.uploadClick(SUPPORT_TESTING[:pathFileCSV])
   @test2.columnsidentification('nome da rua', 'numero', 'ano')
   @test2.searchBatchCSV
   alert_text = @test2.alertCheck
@@ -52,7 +52,15 @@ end
 Então('o arquivo e baixado') do
   @test2.extract_zip("download//download.zip", "download")
 
-  files = ['addresscsv.dbf', 'addresscsv.prj', 'addresscsv.shp', 'addresscsv.shx']
+  files = []
+  name_file = SUPPORT_TESTING[:pathFileCSV]
+  name_file = name_file.gsub('.csv','')
+
+  extensions = ['.dbf', '.prj', '.shp', '.shx']
+  for file_extension in extensions do
+    files << name_file + file_extension
+  end
+
   valid = @test2.filesChecked("download//myshapes", files)
   expect(valid).to be_truthy
 
