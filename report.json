@@ -1,16 +1,16 @@
 [
   {
-    "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada",
-    "uri": "features/bdd/denunciar_camada.feature",
+    "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada",
+    "uri": "features/bdd/enviar_comentario_camada.feature",
     "keyword": "Funcionalidade",
-    "name": "Se logado, usuário deve poder enviar uma denuncia à camada",
+    "name": "Se logado, usuário deve poder enviar uma notificação (comentário) na camada",
     "description": "",
     "line": 3,
     "elements": [
       {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-denuncia-estando-logado",
+        "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada;enviar-notificação-estando-logado",
         "keyword": "Cenário",
-        "name": "Enviar denuncia estando logado",
+        "name": "Enviar notificação estando logado",
         "description": "",
         "line": 5,
         "type": "scenario",
@@ -24,31 +24,31 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15792182417
+              "duration": 13712176409
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
+            "name": "eu preencho o campo notificações com \"Teste notificação camada\"",
             "line": 7,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
+              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 315838872
+              "duration": 212780515
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em \"!\"",
+            "name": "clico em \"Submit\"",
             "line": 8,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
+              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 137211098
+              "duration": 122417914
             }
           },
           {
@@ -60,7 +60,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 819709777
+              "duration": 680636853
             }
           }
         ],
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53215
+              "duration": 195041
             }
           },
           {
@@ -80,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22116
+              "duration": 74826
             }
           }
         ],
@@ -91,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 195899
+              "duration": 133423
             }
           },
           {
@@ -100,13 +100,13 @@
             },
             "result": {
               "status": "passed",
-              "duration": 366741659
+              "duration": 390708785
             }
           }
         ]
       },
       {
-        "id": "se-logado,-usuário-deve-poder-enviar-uma-denuncia-à-camada;enviar-notificação-não-estando-logado",
+        "id": "se-logado,-usuário-deve-poder-enviar-uma-notificação-(comentário)-na-camada;enviar-notificação-não-estando-logado",
         "keyword": "Cenário",
         "name": "Enviar notificação não estando logado",
         "description": "",
@@ -122,31 +122,31 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5845665350
+              "duration": 6276245828
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu preencho o campo notificações com \"Teste denuncia camada\"",
+            "name": "eu preencho o campo notificações com \"Teste notificação camada\"",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:1"
+              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:1"
             },
             "result": {
               "status": "passed",
-              "duration": 169614801
+              "duration": 126201411
             }
           },
           {
             "keyword": "E ",
-            "name": "clico em \"!\"",
+            "name": "clico em \"Submit\"",
             "line": 14,
             "match": {
-              "location": "features/step_definitions/denuncia_camada_steps.rb:5"
+              "location": "features/step_definitions/enviar_comentario_camada_steps.rb:5"
             },
             "result": {
               "status": "passed",
-              "duration": 101941855
+              "duration": 91481945
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 810504775
+              "duration": 634287742
             }
           }
         ],
@@ -169,7 +169,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69648
+              "duration": 40778
             }
           },
           {
@@ -178,7 +178,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51508
+              "duration": 34460
             }
           }
         ],
@@ -189,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 103203
+              "duration": 68915
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277182895
+              "duration": 198318696
             }
           }
         ]
