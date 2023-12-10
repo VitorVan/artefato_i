@@ -29,3 +29,7 @@ end
 E('estar na página de painel') do
   expect(page).to have_current_path('/portal/dashboard/home')
 end
+
+E('clico no botão de notificações por e-mail') do
+  find('span.el-checkbox__input').click
+end

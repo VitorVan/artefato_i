@@ -4,7 +4,7 @@
     "uri": "features/bdd/alterar_informações_do_perfil.feature",
     "keyword": "Funcionalidade",
     "name": "Fazer login na plataforma",
-    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ter minhas informações pessoais atualizadas\nEu quero alterar as minhas informações de nome e nome de usuário",
+    "description": "Como um usuário do Pauliceia 2.0\nPara que eu possa ter minhas informações pessoais atualizadas\nEu quero alterar as minhas informações de nome, nome de usuário e receber notificações por e-mail",
     "line": 3,
     "elements": [
       {
@@ -24,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2890239900
+              "duration": 4151347100
             }
           },
           {
@@ -36,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 216814300
+              "duration": 150051600
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 153668800
+              "duration": 121513200
             }
           },
           {
@@ -60,7 +60,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230359100
+              "duration": 292111900
             }
           },
           {
@@ -72,7 +72,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 122687700
+              "duration": 137402800
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 665838000
+              "duration": 817942200
             }
           },
           {
@@ -96,7 +96,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14814800
+              "duration": 15409900
             }
           }
         ],
@@ -107,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31100
+              "duration": 29800
             }
           },
           {
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9400
+              "duration": 9900
             }
           }
         ],
@@ -127,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66000
+              "duration": 86700
             }
           },
           {
@@ -136,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 265471800
+              "duration": 260742300
             }
           }
         ]
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2668494800
+              "duration": 2718704200
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124478500
+              "duration": 151745100
             }
           },
           {
@@ -182,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 151738300
+              "duration": 122967300
             }
           },
           {
@@ -194,7 +194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230315500
+              "duration": 278710800
             }
           },
           {
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123540500
+              "duration": 122663700
             }
           },
           {
@@ -218,7 +218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 791213800
+              "duration": 678450200
             }
           },
           {
@@ -230,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15251700
+              "duration": 13976800
             }
           }
         ],
@@ -241,7 +241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24500
+              "duration": 30000
             }
           },
           {
@@ -250,7 +250,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9400
+              "duration": 13100
             }
           }
         ],
@@ -261,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40900
+              "duration": 42900
             }
           },
           {
@@ -270,7 +270,141 @@
             },
             "result": {
               "status": "passed",
-              "duration": 265948200
+              "duration": 263982700
+            }
+          }
+        ]
+      },
+      {
+        "id": "fazer-login-na-plataforma;alterar-notificações-por-e-mail",
+        "keyword": "Cenário",
+        "name": "Alterar notificações por e-mail",
+        "description": "",
+        "line": 26,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou logado",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2551070300
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "clico no menu de perfil",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/cadastrar_palavra_chave_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231502900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em Meu perfil",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125113100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botão de notificações por e-mail",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93928000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em Submit no card de perfil",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122025600
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "espero ver a mensagem \"The profile was updated with success!\"",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940116700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "estar na página de painel",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/alterar_informações_do_perfil_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14707300
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "webmock-3.19.1/lib/webmock/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.39.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246045300
             }
           }
         ]
