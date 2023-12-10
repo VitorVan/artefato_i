@@ -56,9 +56,6 @@ Dado('que tenho a palavra chave {string} cadastrada') do |string|
 end
 
 Quando('clico no botão de excluir da palavra chave {string}') do |string|
-  @res = stub_request(:delete, "https://pauliceia.unifesp.br/api/vgi/api/keyword/\/.*/")
-    .to_return(status: 403, body: '<html><title>403: Forbidden</title><body>403: Forbidden</body></html>')
-
   div_palavras_chave = find('div.card-body', text: "Palavra chave teste")
   within(div_palavras_chave) do
     div_palavra_chave = find('div.row', text: "Palavra chave teste")

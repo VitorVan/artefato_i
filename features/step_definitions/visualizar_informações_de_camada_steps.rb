@@ -31,3 +31,6 @@ Então('eu não vejo as informações da camada em um popup') do
   div_enchente = find('div.box-info', text: 'A enchente de 1850', visible: :all)
   expect(div_enchente).to_not be_visible
 end
+# Em alguns casos, este teste dá erro, pois o botão de fechar não fecha as informações
+# Em outros casos, o botão de fechar fecha as informações e o teste funciona
+# Não foi possível identificar o motivo, mas ele é causado pelo erro no console TypeError: Cannot read properties of null (reading 'user_id')
